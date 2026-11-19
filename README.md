@@ -106,11 +106,13 @@ published to Tableau Public:
 
 **[Philadelphia Housing Pressure — Context, Trajectory, and Response](https://public.tableau.com/app/profile/luan.nguyen1531/viz/PhiladelphiaHousingPressureDashboard/PhiladelphiaHousingPressureContextTrajectoryandResponse_)**
 
-It holds two dashboards joined by navigation buttons. The first is the context
-view: a ZIP map selector, the five-ZIP screen, and the case-study profiles with
-the six measures. The second is the forecast and response view: the per-ZIP
-transaction forecast with 80% and 95% bands and a 2026-01-01 reference line,
-the evidence-to-response matrix, and the response detail.
+It holds two dashboards joined by navigation buttons. The link above opens the
+context view: a ZIP map selector, the five-ZIP screen, and the case-study
+profiles with the six measures. The second is the forecast and response view —
+the per-ZIP transaction forecast with 80% and 95% bands and a 2026-01-01
+reference line, the evidence-to-response matrix, and the response detail:
+
+**[Forecast and Response dashboard](https://public.tableau.com/app/profile/luan.nguyen1531/viz/PhiladelphiaHousingPressureDashboard/PhiladelphiaHousingPressureContextTrajectoryandResponse2)**
 
 The `.twbx` is not in this repository — the five input files and the build steps
 are, so the workbook can be rebuilt.
