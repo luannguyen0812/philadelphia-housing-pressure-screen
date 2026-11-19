@@ -9,6 +9,8 @@ interactive Tableau dashboard.
 **BSAN 710 Capstone · Drexel University, LeBow College of Business · Fall 2026**
 Client: City of Philadelphia, Office of Innovation and Technology
 
+**[▶ Open the live dashboard](https://public.tableau.com/app/profile/luan.nguyen1531/viz/PhiladelphiaHousingPressureDashboard/PhiladelphiaHousingPressureContextTrajectoryandResponse)** — *Philadelphia Housing Pressure: Context, Trajectory, and Response* (Tableau Public)
+
 ---
 
 ## What the deliverable actually is
@@ -99,8 +101,19 @@ file is keyed to `geography_key`, and `19_validate_dashboard_package.R` fails th
 build if a key orphans or a stray file appears.
 
 The workbook itself is built by hand from those five files following
-[`code/docs/TABLEAU_BUILD_STEPS.md`](code/docs/TABLEAU_BUILD_STEPS.md), and
-published to Tableau Public. The `.twbx` is not in this repository.
+[`code/docs/TABLEAU_BUILD_STEPS.md`](code/docs/TABLEAU_BUILD_STEPS.md) and is
+published to Tableau Public:
+
+**[Philadelphia Housing Pressure — Context, Trajectory, and Response](https://public.tableau.com/app/profile/luan.nguyen1531/viz/PhiladelphiaHousingPressureDashboard/PhiladelphiaHousingPressureContextTrajectoryandResponse)**
+
+It holds two dashboards joined by navigation buttons. The first is the context
+view: a ZIP map selector, the five-ZIP screen, and the case-study profiles with
+the six measures. The second is the forecast and response view: the per-ZIP
+transaction forecast with 80% and 95% bands and a 2026-01-01 reference line,
+the evidence-to-response matrix, and the response detail.
+
+The `.twbx` is not in this repository — the five input files and the build steps
+are, so the workbook can be rebuilt.
 
 ---
 
