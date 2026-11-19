@@ -1,0 +1,3 @@
+zip5,opa_parcels,parcels_with_address_unit_designator,address_unit_designator_coverage,parcels_with_livable_area,explicit_dwelling_unit_count_available,valid_price_per_dwelling_unit_possible,limitation
+19143,25441,264,0.010376950591564797,23852,FALSE,FALSE,"OPA's unit field identifies an address/unit and is not a dwelling-unit count; L&I permitted_units describes projects, not all existing parcels."
+19132,20495,30,0.001463771651622347,16024,FALSE,FALSE,"OPA's unit field identifies an address/unit and is not a dwelling-unit count; L&I permitted_units describes projects, not all existing parcels."

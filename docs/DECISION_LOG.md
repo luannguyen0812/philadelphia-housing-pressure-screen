@@ -1,0 +1,38 @@
+# Project decision log
+
+This file records scope and method decisions that affect more than one script,
+chart, or presenter. Add a dated row whenever the group changes a definition,
+data period, source, model, or client-facing recommendation.
+
+| Date | Decision | Reason | Downstream effect |
+|---|---|---|---|
+| 2026-10-09 | Use January 1, 2000 through July 31, 2026 | July is the latest complete month in the October source snapshot; August is partial | All 2026 annual views are labeled January-July YTD; complete-year modeling ends in 2025 |
+| 2026-10-09 | Publish separate parcel and legal-document tables | A filing can cover multiple parcels, so one table cannot safely serve both grains | `data_clean` supports property/geography work; `data_document` supports transaction counts and prices |
+| 2026-10-09 | Remove only source rows explicitly flagged as discrepancies | Preserves legitimate repeated documents and makes exclusions auditable | Removal count is stored in team metadata |
+| 2026-10-10 | Scope geography to the City of Philadelphia | “Citywide” was being confused with the surrounding region | All ZIP comparisons use Philadelphia 191xx areas; suburbs are out of scope |
+| 2026-10-10 | Keep one connected housing-market research area | Professor feedback requested a narrower final question | Activity, price, ZIP scenarios, and affordability are presented as connected views rather than unrelated projects |
+| 2026-10-10 | Select five ZIPs by similarity to citywide 2015-2025 CAGR | Provides a transparent interpretation of “similar increase” | Selected ZIPs are 19130, 19153, 19152, 19126, and 19119; fastest-growth ranking remains an optional alternative only |
+| 2026-10-10 | Limit Redfin/ACS affordability trend claims to 2012-2024 | These are the common validated years; ACS income does not extend to 2026 in the build | The price-to-income trend uses the shorter overlap period and states it explicitly |
+| 2026-10-10 | Use the 2024 ZIP cross-section for the primary correlation matrix | Pooling ZIP-years can inflate relationships when price and income trend upward together | The chart reports 39 eligible ZIPs in 2024; annual and pooled matrices remain in the model export for diagnostics |
+| 2026-10-10 | Mark July 2021-April 2022 as a recording-delay period | Receipt-to-record delay reached a monthly median of 100 days and then returned to zero in May 2022 | The activity chart shades the period, while a support CSV preserves record-month and receipt-month diagnostics |
+| 2026-10-10 | Keep large/raw/reproducible data outside Git history | Several files exceed GitHub limits and contain replaceable local state | Git tracks code, documentation, dictionaries, charts, and compact outputs; large data move through the team file channel |
+| 2026-10-16 | Provisionally retain 19132 and 19143 as the two Week 4 case studies | Both pass the volume and 2012-2024 Redfin/ACS income coverage gates; 2015-2024 Redfin CAGR differs by 5.8 percentage points and their 2024 vulnerability profiles differ in poverty, age, rent burden, and owner burden | Week 4 outputs default to these ZIPs; rerun the same scorecard if the group changes the pair |
+| 2026-10-16 | Reproduce the presented 2014+ sale-to-assessment method for the internal record, but hold it from automatic reuse in the final dashboard | The class slide establishes the exact-DEED, single-property calculation after AVI, while the RTT extract still has no explicit assessment-year field | Save annual two-ZIP medians, quartiles, counts, and an internal PNG; keep `publish_sale_to_assessment = FALSE` unless the team accepts the established convention or adds a year-aligned OPA source |
+| 2026-10-17 | Present a five-ZIP screen and retain 19132 and 19143 as detailed case studies | Instructor feedback favored a five-ZIP story and requested transaction activity; the selected pair is the only displayed pair in the high-growth, high-vulnerability quadrant when compared with 19122, 19138, and 19119 using citywide qualifying-candidate medians | Limit the quadrant chart to five labeled ZIPs, add transaction activity, and move sale-to-assessment to the appendix |
+| 2026-10-17 | Describe the theme as housing pressure and potential displacement risk rather than confirmed gentrification | ZIP-level price, income, transaction, and vulnerability measures identify pressure and exposure but do not establish neighborhood gentrification or involuntary household displacement | Use screening and risk language in charts, slides, notes, and recommendations |
+| 2026-10-22 | Retain 19132 and 19143 as a contrasting case-study pair while disclosing 19140 as the closest high-growth/high-vulnerability alternative | The full 37-ZIP screen shows 19140 nearly matches 19132 and exceeds 19143 on the two quadrant measures; 19143 is retained for contrast through its higher price-to-income level, renter exposure, renter burden, and different transaction trajectory—not because it is the second-highest combined score | Speaker notes must state the 19140 comparison; dashboard keeps 19140 available; if the objective becomes selecting the two most extreme quadrant cases, rerun with 19132 and 19140 |
+| 2026-10-22 | Default Tableau to 19132 and 19143 while allowing client selection of every qualifying ZIP | The two case studies should define the opening story without preventing City users from exploring other neighborhoods | Add a visible multi-select ZIP control, `default_dashboard_selection`, reset/all-ZIP actions, and sheet-specific filter scope so the citywide context remains visible |
+| 2026-10-29 | Use one final Tableau dashboard backed by a five-file logical relationship model | ZIP profiles, annual signals, monthly forecasts, and recommendations have different grains and cannot be safely combined through physical joins | Keep only `dim_geography` and four fact CSVs in `tableau_data/tableau_ingestion`; relate every fact to the dimension on `geography_key`; archive the old five-chart workbook package outside the production folder |
+| 2026-10-29 | Present the transaction projection as an Auto-ARIMA conditional baseline with a required methods appendix | Technical feedback requested the actual sample, model-selection method, exogenous-variable treatment, and construction details that affect the curve | Disclose 192 monthly observations per ZIP, two holdouts, selected ARIMA error orders, 120-month horizon, pandemic/backlog indicators, residual checks, and the absence of economic-driver predictors |
+| 2026-10-29 | Do not promote the lagged mortgage/inventory/days-on-market challenger to the 2035 forecast | On the same 2024-2025 holdout, external variables did not improve 19132 and improved 19143 by less than 0.01 sale/month in RMSE; long-horizon ARIMAX also requires future predictor scenarios | Retain the intervention-adjusted Auto-ARIMA as the transparent primary path, preserve the challenger results for the appendix, and state that tested external drivers added no material predictive value in this specification |
+| 2026-10-29 | Link different policy pathways to the validated evidence profile for each case ZIP | 19132 has the sharper transaction contraction and above-City filing rate, while 19143 has a higher price-to-income ratio, a larger permit-unit pipeline, and a below-City filing rate | Export evidence trigger, conditional response, lead time, monitoring metric, and claim boundary; non-case ZIPs receive a monitoring-only message rather than an unvalidated recommendation |
+
+## Entry template
+
+Copy a row and record:
+
+1. the date and exact decision;
+2. why the group made it;
+3. which scripts, files, charts, or recommendations changed;
+4. who must validate the decision, if it remains provisional.
+

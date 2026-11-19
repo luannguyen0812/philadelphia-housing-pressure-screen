@@ -1,0 +1,12 @@
+file,grain,key,purpose
+fact_citywide_property_price.csv,year,year,Citywide median price for eligible single-property deed records
+fact_zip_price_income.csv,price source x ZIP x year,price_source + zip5 + year,"ZIP price, ACS household income, and descriptive price-to-income ratio"
+model_zip_price_income_correlations.csv,price source x scope x year x variable pair,price_source + correlation_scope + analysis_year + variable_x + variable_y,Annual cross-sectional and pooled Pearson/Spearman correlation matrices in long form
+tableau_ingestion/viz1_citywide_activity.csv,month,month,Visualization 1: Philadelphia deed and new-mortgage activity through July 2026
+viz1_recording_delay_diagnostics.csv,record month x activity type,month + activity_type,QA support: record-month versus receipt-month activity and receipt-to-record delay
+tableau_ingestion/viz2_citywide_property_price.csv,year,year,"Visualization 2: annual citywide eligible single-property median price, including 2026 YTD"
+tableau_ingestion/viz3_zip_price_projection.csv,ZIP x year x series,zip5 + year + series_type,Visualization 3: observed prices and 10-15 year scenario for five selected ZIP codes
+viz3_selected_zip_codes.csv,selected ZIP,zip5,"ZIP selection, historical growth, fitted trend, and validation diagnostics"
+viz3_zip_projection_accuracy.csv,selected ZIP,zip5,Five-year holdout accuracy for the ZIP scenario model
+tableau_ingestion/viz4_zip_price_income_correlations.csv,2024 variable pair,variable_x + variable_y,Visualization 4: 2024 Redfin-ACS cross-sectional correlations with lower-triangle display flag
+tableau_ingestion/viz5_zip_price_income_trend.csv,year,year,"Visualization 5: median ZIP-level price-to-income ratio and interquartile range, 2012-2024"

@@ -1,0 +1,36 @@
+column,grain,purpose,important_caveat
+record_id,parcel record,Unique source-row identifier,Primary key for data_clean
+document_id,document,Legal filing identifier shared by related properties,May repeat; use distinct counts for transactions
+document_type,parcel record,Detailed source filing type,Use activity_type for the main analysis categories
+activity_type,parcel record,"Sale deed, new mortgage, mortgage lifecycle, other, or unknown",Category repeats across parcels in the same document
+transaction_type,parcel record,"Broad Sale, Loan, or Other label",Sale includes every detailed type containing DEED; Loan includes new and lifecycle mortgage activity
+deed_variant,parcel record,Identifies sale-deed types other than the exact DEED label,Retained for sensitivity checks because some variants are not ordinary market sales
+record_date,parcel record,Canonical recording/display date,Drives the January 2000 through July 2026 analysis window
+document_date,parcel record,Date the instrument was executed,Not the default transaction-count date
+receipt_date,parcel record,Date the filing was received,May differ from record_date
+year,parcel record,Calendar year of record_date,Not a fiscal-year field
+month,parcel record,Calendar month number,Use yr_mo for monthly grouping
+yr_mo,parcel record,First day of record month,Monthly analysis key
+quarter,parcel record,First day of calendar quarter,Derived from record_date
+street_address,parcel,Property street address,May be missing or nonstandard
+ward,parcel,Ward attached to this property row,A document may touch more than one ward
+zip5,parcel,Standardized five-digit ZIP,Derived from the source ZIP/ZIP+4 value
+opa_account_num,parcel,OPA property account identifier,Stored as text to preserve formatting
+property_count,document,Source count of properties on the filing,Repeated across its parcel rows
+reported_total_consideration,document,Original reported document consideration,Can repeat across parcels; never sum this field across parcel rows
+adjusted_total_consideration,parcel,Adjusted consideration allocated to this parcel row,Sum only after checking coverage
+total_consideration,parcel,Adjusted consideration with reported value as fallback,Convenient for parcel analysis but mixed provenance; document aggregation uses the two source fields above
+reported_local_tax_amount,document,Original reported local transfer tax,Can repeat across parcels; never sum this field across parcel rows
+adjusted_local_tax_amount,parcel,Adjusted local tax allocated to this parcel row,Preferred additive field when all document parcels are covered
+local_tax_amount,parcel,Adjusted local tax with reported value as fallback,Do not sum blindly when adjusted values are missing
+reported_state_tax_amount,document,Original reported state transfer tax,Can repeat across parcels; never sum this field across parcel rows
+adjusted_state_tax_amount,parcel,Adjusted state tax allocated to this parcel row,Preferred additive field when all document parcels are covered
+state_tax_amount,parcel,Adjusted state tax with reported value as fallback,Do not sum blindly when adjusted values are missing
+local_tax_percent,parcel record,Source local transfer-tax percentage,Confirm rate-period interpretation before causal use
+state_tax_percent,parcel record,Source state transfer-tax percentage,Confirm rate-period interpretation before causal use
+assessed_value,parcel,Adjusted assessed value with reported value as fallback,Missingness must be reported in assessment models
+fair_market_value,parcel,Adjusted fair-market value with reported value as fallback,Not the same as transaction consideration
+nominal_transfer,document flag,Sale deed with document consideration at or below $100,Repeated for every parcel in the document
+unknown_consideration,document flag,Sale deed with no reported or adjusted consideration,Kept separate from nominal transfers
+high_value_sale_outlier,document flag,Non-nominal sale above the document-level 99.9th percentile,Retained in counts but excluded from typical-price summaries; repeated for every parcel in the document
+shape,parcel geometry,Source point geometry for mapping,Not an input to ordinary k-means unless transformed into meaningful coordinates/features

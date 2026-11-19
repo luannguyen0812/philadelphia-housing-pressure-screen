@@ -1,0 +1,25 @@
+zip5,year,n_eligible_sales,median_sale_price,median_assessed_value,sale_to_assessment_q25,median_sale_to_assessment_ratio,sale_to_assessment_q75,assessment_timing_status
+19132,2014,354,15000,26050,0.3159351393592081,0.5963428234749489,1.1677449266712143,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2015,472,14950,27900,0.2790032679738562,0.5500580495356038,0.9040131871764372,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2016,469,15000,27800,0.28343558282208586,0.5813953488372093,1.0031847133757963,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2017,634,18875,24300,0.4009379393585696,0.7898188093183779,1.3874113475177303,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2018,781,20000,24300,0.42592592592592593,0.9839816933638444,1.6901408450704225,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2019,734,30000,29500,0.5756767060617614,1.0095180722891566,1.834697461727086,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2020,512,40000,30551,0.7964191192063683,1.2787637302054018,2.1240723562152133,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2021,503,56500,30200,1,1.645101663585952,3.1520953757225434,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2022,812,60000,32700,0.9941440108240667,1.7896829720013074,3.130787037037037,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2023,601,66225,56400,0.7131011608623549,1.0934579439252337,1.7667844522968197,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2024,547,70000,56400,0.6787888760901761,1.0969976905311778,1.7661848061982435,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19132,2025,597,72500,78300,0.6134969325153374,0.8823529411764706,1.3656114214773432,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2014,654,37000,60150,0.4023511442939661,0.7117738114820209,1.2729128633285378,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2015,825,40000,61300,0.4225531914893617,0.6828269033799932,1.2453253552729993,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2016,924,46810,58700,0.48870034854064837,0.8207544945700118,1.359096584649284,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2017,946,55000,57500,0.5797205041428405,0.9495569536067741,1.4768054023396844,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2018,1091,63800,57400,0.6984528136973586,1.1320754716981132,1.9571060598457857,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2019,1095,80000,62000,0.8517636037797328,1.2467700258397933,2.0370858165693715,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2020,762,101750,67150,0.9876034040125512,1.428195338660077,2.4331520853698274,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2021,754,120000,69300,1.1074178117224003,1.6698722612449348,2.6182505869054866,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2022,1224,128900,70450,1.1958424218969883,1.7203187286725767,2.515025492166276,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2023,833,145000,101300,0.8521469676848162,1.2100677637947725,1.9263456090651558,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2024,890,150000,110900,0.8837469270958745,1.2237435359502382,1.9488583490970381,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.
+19143,2025,925,145000,135800,0.7082273112807463,1,1.4539748953974896,Reproduces presented RTT method; assessed_value has no explicit assessment-year column.

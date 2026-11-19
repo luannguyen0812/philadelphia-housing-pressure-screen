@@ -1,0 +1,465 @@
+price_source,correlation_scope,analysis_year,year_start,year_end,unique_zips,variable_x,variable_y,observations,pearson_correlation,spearman_correlation
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,log_median_household_income,log_median_household_income,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,log_median_property_price,log_median_household_income,46,0.8961374725938118,0.9101508632353008
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,n_eligible_sales,log_median_household_income,46,-0.33745980159213845,-0.4197964847363552
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,price_to_income_ratio,log_median_household_income,46,0.639204973149241,0.7598519888991674
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,log_median_household_income,log_median_property_price,46,0.8961374725938118,0.9101508632353008
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,log_median_property_price,log_median_property_price,46,1,1
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,n_eligible_sales,log_median_property_price,46,-0.30149566682406326,-0.38943895889958347
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,price_to_income_ratio,log_median_property_price,46,0.8743883857957987,0.9506184629562143
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,log_median_household_income,n_eligible_sales,46,-0.33745980159213845,-0.4197964847363552
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,log_median_property_price,n_eligible_sales,46,-0.30149566682406326,-0.38943895889958347
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,n_eligible_sales,n_eligible_sales,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,price_to_income_ratio,n_eligible_sales,46,-0.2583308858183551,-0.31507863089731725
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,log_median_household_income,price_to_income_ratio,46,0.639204973149241,0.7598519888991674
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,log_median_property_price,price_to_income_ratio,46,0.8743883857957987,0.9506184629562143
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,n_eligible_sales,price_to_income_ratio,46,-0.2583308858183551,-0.31507863089731725
+Philadelphia RTT,Annual ZIP cross-section,2011,2011,2011,46,price_to_income_ratio,price_to_income_ratio,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,log_median_household_income,log_median_household_income,46,0.9999999999999999,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,log_median_property_price,log_median_household_income,46,0.881765329336263,0.9020599499085554
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,n_eligible_sales,log_median_household_income,46,-0.2379859684757532,-0.2834587399001587
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,price_to_income_ratio,log_median_household_income,46,0.5933060979618207,0.6884366327474559
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,log_median_household_income,log_median_property_price,46,0.881765329336263,0.9020599499085554
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,log_median_property_price,log_median_property_price,46,1,1
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,n_eligible_sales,log_median_property_price,46,-0.14228076450107083,-0.19854437796829705
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,price_to_income_ratio,log_median_property_price,46,0.8608692886054394,0.9205008035269513
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,log_median_household_income,n_eligible_sales,46,-0.2379859684757532,-0.2834587399001587
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,log_median_property_price,n_eligible_sales,46,-0.14228076450107083,-0.19854437796829705
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,n_eligible_sales,n_eligible_sales,46,0.9999999999999999,1
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,price_to_income_ratio,n_eligible_sales,46,-0.05052600008539213,-0.1124336994860725
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,log_median_household_income,price_to_income_ratio,46,0.5933060979618207,0.6884366327474559
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,log_median_property_price,price_to_income_ratio,46,0.8608692886054394,0.9205008035269513
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,n_eligible_sales,price_to_income_ratio,46,-0.05052600008539213,-0.1124336994860725
+Philadelphia RTT,Annual ZIP cross-section,2012,2012,2012,46,price_to_income_ratio,price_to_income_ratio,46,0.9999999999999998,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,log_median_household_income,log_median_household_income,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,log_median_property_price,log_median_household_income,46,0.877230494715965,0.9108794885956142
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,n_eligible_sales,log_median_household_income,46,-0.19660653216603297,-0.31053410691847233
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,price_to_income_ratio,log_median_household_income,46,0.6329369642174455,0.6983040394696268
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,log_median_household_income,log_median_property_price,46,0.877230494715965,0.9108794885956142
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,log_median_property_price,log_median_property_price,46,0.9999999999999999,1
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,n_eligible_sales,log_median_property_price,46,-0.1366119025806514,-0.23317708012089064
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,price_to_income_ratio,log_median_property_price,46,0.888415543360696,0.9208708541012335
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,log_median_household_income,n_eligible_sales,46,-0.19660653216603297,-0.31053410691847233
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,log_median_property_price,n_eligible_sales,46,-0.1366119025806514,-0.23317708012089064
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,n_eligible_sales,n_eligible_sales,46,1,1
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,price_to_income_ratio,n_eligible_sales,46,-0.10428389461857478,-0.1468484028943163
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,log_median_household_income,price_to_income_ratio,46,0.6329369642174455,0.6983040394696268
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,log_median_property_price,price_to_income_ratio,46,0.888415543360696,0.9208708541012335
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,n_eligible_sales,price_to_income_ratio,46,-0.10428389461857478,-0.1468484028943163
+Philadelphia RTT,Annual ZIP cross-section,2013,2013,2013,46,price_to_income_ratio,price_to_income_ratio,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,log_median_household_income,log_median_household_income,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,log_median_property_price,log_median_household_income,46,0.9056732754906508,0.92932034221401
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,n_eligible_sales,log_median_household_income,46,-0.24028674099827232,-0.3675218953579298
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,price_to_income_ratio,log_median_household_income,46,0.6900242832882227,0.8185630588960838
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,log_median_household_income,log_median_property_price,46,0.9056732754906508,0.92932034221401
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,log_median_property_price,log_median_property_price,46,0.9999999999999998,1
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,n_eligible_sales,log_median_property_price,46,-0.2386404331301091,-0.3404983655091593
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,price_to_income_ratio,log_median_property_price,46,0.8851475567470765,0.960219565166573
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,log_median_household_income,n_eligible_sales,46,-0.24028674099827232,-0.3675218953579298
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,log_median_property_price,n_eligible_sales,46,-0.2386404331301091,-0.3404983655091593
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,n_eligible_sales,n_eligible_sales,46,0.9999999999999999,1
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,price_to_income_ratio,n_eligible_sales,46,-0.2310494483879755,-0.25946712766752994
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,log_median_household_income,price_to_income_ratio,46,0.6900242832882227,0.8185630588960838
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,log_median_property_price,price_to_income_ratio,46,0.8851475567470765,0.960219565166573
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,n_eligible_sales,price_to_income_ratio,46,-0.2310494483879755,-0.25946712766752994
+Philadelphia RTT,Annual ZIP cross-section,2014,2014,2014,46,price_to_income_ratio,price_to_income_ratio,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,log_median_household_income,log_median_household_income,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,log_median_property_price,log_median_household_income,46,0.9025865142098056,0.9332963311288912
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,n_eligible_sales,log_median_household_income,46,-0.2726255774001187,-0.37700823355061286
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,price_to_income_ratio,log_median_household_income,46,0.6983103742966622,0.80968239284613
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,log_median_household_income,log_median_property_price,46,0.9025865142098056,0.9332963311288912
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,log_median_property_price,log_median_property_price,46,1,1
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,n_eligible_sales,log_median_property_price,46,-0.27255089163117735,-0.3729106279837389
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,price_to_income_ratio,log_median_property_price,46,0.8891006316453528,0.9550683113620725
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,log_median_household_income,n_eligible_sales,46,-0.2726255774001187,-0.37700823355061286
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,log_median_property_price,n_eligible_sales,46,-0.27255089163117735,-0.3729106279837389
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,n_eligible_sales,n_eligible_sales,46,1,1
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,price_to_income_ratio,n_eligible_sales,46,-0.24789713035436453,-0.30201362991940967
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,log_median_household_income,price_to_income_ratio,46,0.6983103742966622,0.80968239284613
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,log_median_property_price,price_to_income_ratio,46,0.8891006316453528,0.9550683113620725
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,n_eligible_sales,price_to_income_ratio,46,-0.24789713035436453,-0.30201362991940967
+Philadelphia RTT,Annual ZIP cross-section,2015,2015,2015,46,price_to_income_ratio,price_to_income_ratio,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,log_median_household_income,log_median_household_income,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,log_median_property_price,log_median_household_income,46,0.9262013138131984,0.9428818320822696
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,n_eligible_sales,log_median_household_income,46,-0.3762032098744923,-0.42016962720053963
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,price_to_income_ratio,log_median_household_income,46,0.7887809444018693,0.8386679000925068
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,log_median_household_income,log_median_property_price,46,0.9262013138131984,0.9428818320822696
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,log_median_property_price,log_median_property_price,46,1,1
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,n_eligible_sales,log_median_property_price,46,-0.3627164497869089,-0.40599648373675024
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,price_to_income_ratio,log_median_property_price,46,0.9138538918256638,0.9594744797880221
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,log_median_household_income,n_eligible_sales,46,-0.3762032098744923,-0.42016962720053963
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,log_median_property_price,n_eligible_sales,46,-0.3627164497869089,-0.40599648373675024
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,n_eligible_sales,n_eligible_sales,46,1,1
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,price_to_income_ratio,n_eligible_sales,46,-0.3424414342666741,-0.35207402114807407
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,log_median_household_income,price_to_income_ratio,46,0.7887809444018693,0.8386679000925068
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,log_median_property_price,price_to_income_ratio,46,0.9138538918256638,0.9594744797880221
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,n_eligible_sales,price_to_income_ratio,46,-0.3424414342666741,-0.35207402114807407
+Philadelphia RTT,Annual ZIP cross-section,2016,2016,2016,46,price_to_income_ratio,price_to_income_ratio,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,log_median_household_income,log_median_household_income,46,0.9999999999999999,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,log_median_property_price,log_median_household_income,46,0.9255251820976726,0.9318819579502308
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,n_eligible_sales,log_median_household_income,46,-0.47090131688171233,-0.4956521739130434
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,price_to_income_ratio,log_median_household_income,46,0.7017039116945797,0.7971014492753623
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,log_median_household_income,log_median_property_price,46,0.9255251820976726,0.9318819579502308
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,log_median_property_price,log_median_property_price,46,1,1
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,n_eligible_sales,log_median_property_price,46,-0.4693967593059045,-0.49091862245425794
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,price_to_income_ratio,log_median_property_price,46,0.8778439813921096,0.953097536609058
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,log_median_household_income,n_eligible_sales,46,-0.47090131688171233,-0.4956521739130434
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,log_median_property_price,n_eligible_sales,46,-0.4693967593059045,-0.49091862245425794
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,n_eligible_sales,n_eligible_sales,46,0.9999999999999999,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,price_to_income_ratio,n_eligible_sales,46,-0.4356510455778887,-0.44767190872648777
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,log_median_household_income,price_to_income_ratio,46,0.7017039116945797,0.7971014492753623
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,log_median_property_price,price_to_income_ratio,46,0.8778439813921096,0.953097536609058
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,n_eligible_sales,price_to_income_ratio,46,-0.4356510455778887,-0.44767190872648777
+Philadelphia RTT,Annual ZIP cross-section,2017,2017,2017,46,price_to_income_ratio,price_to_income_ratio,46,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,log_median_household_income,log_median_household_income,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,log_median_property_price,log_median_household_income,45,0.9045209240466092,0.9311855630673392
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,n_eligible_sales,log_median_household_income,45,-0.5381829245379551,-0.5572172091939436
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,price_to_income_ratio,log_median_household_income,45,0.5382813337357923,0.7650856389986823
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,log_median_household_income,log_median_property_price,45,0.9045209240466092,0.9311855630673392
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,log_median_property_price,log_median_property_price,45,1,1
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,n_eligible_sales,log_median_property_price,45,-0.5601422263103564,-0.5243287764334249
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,price_to_income_ratio,log_median_property_price,45,0.7939857253607183,0.9327667469865139
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,log_median_household_income,n_eligible_sales,45,-0.5381829245379551,-0.5572172091939436
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,log_median_property_price,n_eligible_sales,45,-0.5601422263103564,-0.5243287764334249
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,n_eligible_sales,n_eligible_sales,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,price_to_income_ratio,n_eligible_sales,45,-0.4818578786727159,-0.44778971043878396
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,log_median_household_income,price_to_income_ratio,45,0.5382813337357923,0.7650856389986823
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,log_median_property_price,price_to_income_ratio,45,0.7939857253607183,0.9327667469865139
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,n_eligible_sales,price_to_income_ratio,45,-0.4818578786727159,-0.44778971043878396
+Philadelphia RTT,Annual ZIP cross-section,2018,2018,2018,45,price_to_income_ratio,price_to_income_ratio,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,log_median_household_income,log_median_household_income,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,log_median_property_price,log_median_household_income,45,0.8972599282935749,0.9309527027718623
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,n_eligible_sales,log_median_household_income,45,-0.565201167800697,-0.590730920311245
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,price_to_income_ratio,log_median_household_income,45,0.5404319545944355,0.7332015810276679
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,log_median_household_income,log_median_property_price,45,0.8972599282935749,0.9309527027718623
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,log_median_property_price,log_median_property_price,45,1,1
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,n_eligible_sales,log_median_property_price,45,-0.5887447744853531,-0.5753253198909418
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,price_to_income_ratio,log_median_property_price,45,0.8093773469965588,0.91619449998199
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,log_median_household_income,n_eligible_sales,45,-0.565201167800697,-0.590730920311245
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,log_median_property_price,n_eligible_sales,45,-0.5887447744853531,-0.5753253198909418
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,n_eligible_sales,n_eligible_sales,45,1,1
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,price_to_income_ratio,n_eligible_sales,45,-0.4959246766781119,-0.45706380340352604
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,log_median_household_income,price_to_income_ratio,45,0.5404319545944355,0.7332015810276679
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,log_median_property_price,price_to_income_ratio,45,0.8093773469965588,0.91619449998199
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,n_eligible_sales,price_to_income_ratio,45,-0.4959246766781119,-0.45706380340352604
+Philadelphia RTT,Annual ZIP cross-section,2019,2019,2019,45,price_to_income_ratio,price_to_income_ratio,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,log_median_household_income,log_median_household_income,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,log_median_property_price,log_median_household_income,45,0.9012736430466248,0.9342555994729906
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,n_eligible_sales,log_median_household_income,45,-0.37923540705301056,-0.4106854641708823
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,price_to_income_ratio,log_median_household_income,45,0.5667416294770589,0.6808959156785243
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,log_median_household_income,log_median_property_price,45,0.9012736430466248,0.9342555994729906
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,log_median_property_price,log_median_property_price,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,n_eligible_sales,log_median_property_price,45,-0.43679375881639165,-0.44856549976572624
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,price_to_income_ratio,log_median_property_price,45,0.8408377415994119,0.8783926218708826
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,log_median_household_income,n_eligible_sales,45,-0.37923540705301056,-0.4106854641708823
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,log_median_property_price,n_eligible_sales,45,-0.43679375881639165,-0.44856549976572624
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,n_eligible_sales,n_eligible_sales,45,1,1
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,price_to_income_ratio,n_eligible_sales,45,-0.4506113360589174,-0.3728054285760384
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,log_median_household_income,price_to_income_ratio,45,0.5667416294770589,0.6808959156785243
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,log_median_property_price,price_to_income_ratio,45,0.8408377415994119,0.8783926218708826
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,n_eligible_sales,price_to_income_ratio,45,-0.4506113360589174,-0.3728054285760384
+Philadelphia RTT,Annual ZIP cross-section,2020,2020,2020,45,price_to_income_ratio,price_to_income_ratio,45,0.9999999999999998,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,log_median_household_income,log_median_household_income,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,log_median_property_price,log_median_household_income,45,0.8574618879303113,0.890719227719202
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,n_eligible_sales,log_median_household_income,45,-0.26948331242998647,-0.2944664031620553
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,price_to_income_ratio,log_median_household_income,45,0.4130792707426488,0.5255599472990776
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,log_median_household_income,log_median_property_price,45,0.8574618879303113,0.890719227719202
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,log_median_property_price,log_median_property_price,45,1,1
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,n_eligible_sales,log_median_property_price,45,-0.40015041022815173,-0.4108984394183269
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,price_to_income_ratio,log_median_property_price,45,0.7936726824751498,0.8246960981013116
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,log_median_household_income,n_eligible_sales,45,-0.26948331242998647,-0.2944664031620553
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,log_median_property_price,n_eligible_sales,45,-0.40015041022815173,-0.4108984394183269
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,n_eligible_sales,n_eligible_sales,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,price_to_income_ratio,n_eligible_sales,45,-0.43971572162253497,-0.3632411067193675
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,log_median_household_income,price_to_income_ratio,45,0.4130792707426488,0.5255599472990776
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,log_median_property_price,price_to_income_ratio,45,0.7936726824751498,0.8246960981013116
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,n_eligible_sales,price_to_income_ratio,45,-0.43971572162253497,-0.3632411067193675
+Philadelphia RTT,Annual ZIP cross-section,2021,2021,2021,45,price_to_income_ratio,price_to_income_ratio,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,log_median_household_income,log_median_household_income,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,log_median_property_price,log_median_household_income,45,0.8804662655337111,0.9166913771415706
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,n_eligible_sales,log_median_household_income,45,-0.35620987379104724,-0.3450820219623879
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,price_to_income_ratio,log_median_household_income,45,0.4575387598319274,0.5194993412384715
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,log_median_household_income,log_median_property_price,45,0.8804662655337111,0.9166913771415706
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,log_median_property_price,log_median_property_price,45,0.9999999999999999,1
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,n_eligible_sales,log_median_property_price,45,-0.4948157755815616,-0.45992423019521517
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,price_to_income_ratio,log_median_property_price,45,0.8010768612433987,0.7894719543113007
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,log_median_household_income,n_eligible_sales,45,-0.35620987379104724,-0.3450820219623879
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,log_median_property_price,n_eligible_sales,45,-0.4948157755815616,-0.45992423019521517
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,n_eligible_sales,n_eligible_sales,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,price_to_income_ratio,n_eligible_sales,45,-0.5137008562072873,-0.46241517986903413
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,log_median_household_income,price_to_income_ratio,45,0.4575387598319274,0.5194993412384715
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,log_median_property_price,price_to_income_ratio,45,0.8010768612433987,0.7894719543113007
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,n_eligible_sales,price_to_income_ratio,45,-0.5137008562072873,-0.46241517986903413
+Philadelphia RTT,Annual ZIP cross-section,2022,2022,2022,45,price_to_income_ratio,price_to_income_ratio,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,log_median_household_income,log_median_household_income,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,log_median_property_price,log_median_household_income,45,0.8683411055005053,0.8934277834922748
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,n_eligible_sales,log_median_household_income,45,-0.3834111811683569,-0.4039525691699604
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,price_to_income_ratio,log_median_household_income,45,0.4548837523998297,0.5604743083003952
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,log_median_household_income,log_median_property_price,45,0.8683411055005053,0.8934277834922748
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,log_median_property_price,log_median_property_price,45,1,1
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,n_eligible_sales,log_median_property_price,45,-0.539706992646302,-0.5259759583789697
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,price_to_income_ratio,log_median_property_price,45,0.8112381754256978,0.8505353434440837
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,log_median_household_income,n_eligible_sales,45,-0.3834111811683569,-0.4039525691699604
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,log_median_property_price,n_eligible_sales,45,-0.539706992646302,-0.5259759583789697
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,n_eligible_sales,n_eligible_sales,45,1,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,price_to_income_ratio,n_eligible_sales,45,-0.5338884100331078,-0.5442687747035573
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,log_median_household_income,price_to_income_ratio,45,0.4548837523998297,0.5604743083003952
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,log_median_property_price,price_to_income_ratio,45,0.8112381754256978,0.8505353434440837
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,n_eligible_sales,price_to_income_ratio,45,-0.5338884100331078,-0.5442687747035573
+Philadelphia RTT,Annual ZIP cross-section,2023,2023,2023,45,price_to_income_ratio,price_to_income_ratio,45,0.9999999999999999,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,log_median_household_income,log_median_household_income,45,1,1
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,log_median_property_price,log_median_household_income,45,0.8580222795134295,0.8988371714861298
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,n_eligible_sales,log_median_household_income,45,-0.3590394353699995,-0.386718492654325
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,price_to_income_ratio,log_median_household_income,45,0.42772150206962484,0.507263085357041
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,log_median_household_income,log_median_property_price,45,0.8580222795134295,0.8988371714861298
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,log_median_property_price,log_median_property_price,45,0.9999999999999999,0.9999999999999999
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,n_eligible_sales,log_median_property_price,45,-0.5373585207052876,-0.5502520014844358
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,price_to_income_ratio,log_median_property_price,45,0.8037240092599832,0.7969563229627733
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,log_median_household_income,n_eligible_sales,45,-0.3590394353699995,-0.386718492654325
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,log_median_property_price,n_eligible_sales,45,-0.5373585207052876,-0.5502520014844358
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,n_eligible_sales,n_eligible_sales,45,1,1
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,price_to_income_ratio,n_eligible_sales,45,-0.5308229618415601,-0.5799268753763678
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,log_median_household_income,price_to_income_ratio,45,0.42772150206962484,0.507263085357041
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,log_median_property_price,price_to_income_ratio,45,0.8037240092599832,0.7969563229627733
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,n_eligible_sales,price_to_income_ratio,45,-0.5308229618415601,-0.5799268753763678
+Philadelphia RTT,Annual ZIP cross-section,2024,2024,2024,45,price_to_income_ratio,price_to_income_ratio,45,1,0.9999999999999999
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,log_median_household_income,log_median_household_income,637,1,0.9999999999999998
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,log_median_property_price,log_median_household_income,637,0.9030728893192002,0.9255177450122807
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,n_eligible_sales,log_median_household_income,637,-0.3128831474371804,-0.36280287392856725
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,price_to_income_ratio,log_median_household_income,637,0.5903401066536785,0.7277353990806765
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,log_median_household_income,log_median_property_price,637,0.9030728893192002,0.9255177450122807
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,log_median_property_price,log_median_property_price,637,1,0.9999999999999998
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,n_eligible_sales,log_median_property_price,637,-0.334141979939959,-0.3648538210496319
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,price_to_income_ratio,log_median_property_price,637,0.816036640565821,0.92301987699871
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,log_median_household_income,n_eligible_sales,637,-0.3128831474371804,-0.36280287392856725
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,log_median_property_price,n_eligible_sales,637,-0.334141979939959,-0.3648538210496319
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,n_eligible_sales,n_eligible_sales,637,0.9999999999999999,1
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,price_to_income_ratio,n_eligible_sales,637,-0.3431387521496363,-0.31072292932425627
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,log_median_household_income,price_to_income_ratio,637,0.5903401066536785,0.7277353990806765
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,log_median_property_price,price_to_income_ratio,637,0.816036640565821,0.92301987699871
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,n_eligible_sales,price_to_income_ratio,637,-0.3431387521496363,-0.31072292932425627
+Philadelphia RTT,Pooled ZIP-years,NA,2011,2024,46,price_to_income_ratio,price_to_income_ratio,637,1,1
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,log_median_household_income,log_median_household_income,34,1,1
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,log_median_property_price,log_median_household_income,34,0.8622314271595914,0.8750190985485102
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,n_eligible_sales,log_median_household_income,34,0.12535495942232008,0.17066462948815891
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,price_to_income_ratio,log_median_household_income,34,0.5228794050473008,0.7045072574484339
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,log_median_household_income,log_median_property_price,34,0.8622314271595914,0.8750190985485102
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,log_median_property_price,log_median_property_price,34,1,1
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,n_eligible_sales,log_median_property_price,34,0.3240582445011248,0.25836516424751715
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,price_to_income_ratio,log_median_property_price,34,0.8627833900436755,0.947746371275783
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,log_median_household_income,n_eligible_sales,34,0.12535495942232008,0.17066462948815891
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,log_median_property_price,n_eligible_sales,34,0.3240582445011248,0.25836516424751715
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,n_eligible_sales,n_eligible_sales,34,0.9999999999999999,1
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,price_to_income_ratio,n_eligible_sales,34,0.3719246232555062,0.31886936592818943
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,log_median_household_income,price_to_income_ratio,34,0.5228794050473008,0.7045072574484339
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,log_median_property_price,price_to_income_ratio,34,0.8627833900436755,0.947746371275783
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,n_eligible_sales,price_to_income_ratio,34,0.3719246232555062,0.31886936592818943
+Redfin,Annual ZIP cross-section,2012,2012,2012,34,price_to_income_ratio,price_to_income_ratio,34,0.9999999999999999,1
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,log_median_household_income,log_median_household_income,34,1,1
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,log_median_property_price,log_median_household_income,34,0.8818474880488713,0.8829640947288006
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,n_eligible_sales,log_median_household_income,34,0.1278343690717011,0.1419404125286478
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,price_to_income_ratio,log_median_household_income,34,0.6228893603732355,0.7048128342245988
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,log_median_household_income,log_median_property_price,34,0.8818474880488713,0.8829640947288006
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,log_median_property_price,log_median_property_price,34,1,1
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,n_eligible_sales,log_median_property_price,34,0.2796432175643356,0.20855614973262032
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,price_to_income_ratio,log_median_property_price,34,0.8930262068029282,0.9440794499618029
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,log_median_household_income,n_eligible_sales,34,0.1278343690717011,0.1419404125286478
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,log_median_property_price,n_eligible_sales,34,0.2796432175643356,0.20855614973262032
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,n_eligible_sales,n_eligible_sales,34,1,1
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,price_to_income_ratio,n_eligible_sales,34,0.29865013611555863,0.26172650878533227
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,log_median_household_income,price_to_income_ratio,34,0.6228893603732355,0.7048128342245988
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,log_median_property_price,price_to_income_ratio,34,0.8930262068029282,0.9440794499618029
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,n_eligible_sales,price_to_income_ratio,34,0.29865013611555863,0.26172650878533227
+Redfin,Annual ZIP cross-section,2013,2013,2013,34,price_to_income_ratio,price_to_income_ratio,34,1,1
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,log_median_household_income,log_median_household_income,35,1,1
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,log_median_property_price,log_median_household_income,35,0.8727695719545303,0.8751313138625952
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,n_eligible_sales,log_median_household_income,35,0.17636251965038258,0.22281393634969568
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,price_to_income_ratio,log_median_household_income,35,0.5770351062049007,0.6728291316526611
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,log_median_household_income,log_median_property_price,35,0.8727695719545303,0.8751313138625952
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,log_median_property_price,log_median_property_price,35,0.9999999999999998,1
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,n_eligible_sales,log_median_property_price,35,0.2591004486820984,0.2273842330857025
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,price_to_income_ratio,log_median_property_price,35,0.8796794003371933,0.93199804136391
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,log_median_household_income,n_eligible_sales,35,0.17636251965038258,0.22281393634969568
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,log_median_property_price,n_eligible_sales,35,0.2591004486820984,0.2273842330857025
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,n_eligible_sales,n_eligible_sales,35,1,1
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,price_to_income_ratio,n_eligible_sales,35,0.2566619039137808,0.2106222303984859
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,log_median_household_income,price_to_income_ratio,35,0.5770351062049007,0.6728291316526611
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,log_median_property_price,price_to_income_ratio,35,0.8796794003371933,0.93199804136391
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,n_eligible_sales,price_to_income_ratio,35,0.2566619039137808,0.2106222303984859
+Redfin,Annual ZIP cross-section,2014,2014,2014,35,price_to_income_ratio,price_to_income_ratio,35,1,1
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,log_median_household_income,log_median_household_income,39,1,1
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,log_median_property_price,log_median_household_income,39,0.8058370943121375,0.8594564513259012
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,n_eligible_sales,log_median_household_income,39,0.3229273423550221,0.35529912116434303
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,price_to_income_ratio,log_median_household_income,39,0.36759705852351543,0.5544534412955465
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,log_median_household_income,log_median_property_price,39,0.8058370943121375,0.8594564513259012
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,log_median_property_price,log_median_property_price,39,1,1
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,n_eligible_sales,log_median_property_price,39,0.33078294423615584,0.29235207811908165
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,price_to_income_ratio,log_median_property_price,39,0.8183742202274572,0.8825345423519648
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,log_median_household_income,n_eligible_sales,39,0.3229273423550221,0.35529912116434303
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,log_median_property_price,n_eligible_sales,39,0.33078294423615584,0.29235207811908165
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,n_eligible_sales,n_eligible_sales,39,1,1
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,price_to_income_ratio,n_eligible_sales,39,0.1778628168859822,0.1440429200617835
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,log_median_household_income,price_to_income_ratio,39,0.36759705852351543,0.5544534412955465
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,log_median_property_price,price_to_income_ratio,39,0.8183742202274572,0.8825345423519648
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,n_eligible_sales,price_to_income_ratio,39,0.1778628168859822,0.1440429200617835
+Redfin,Annual ZIP cross-section,2015,2015,2015,39,price_to_income_ratio,price_to_income_ratio,39,1,1
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,log_median_household_income,log_median_household_income,41,1,1
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,log_median_property_price,log_median_household_income,41,0.7881079438192069,0.8425087108013939
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,n_eligible_sales,log_median_household_income,41,0.3129446581292178,0.3380085386116307
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,price_to_income_ratio,log_median_household_income,41,0.2166426150214502,0.4278745644599304
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,log_median_household_income,log_median_property_price,41,0.7881079438192069,0.8425087108013939
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,log_median_property_price,log_median_property_price,41,1,1
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,n_eligible_sales,log_median_property_price,41,0.30154905497223716,0.21047129620765456
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,price_to_income_ratio,log_median_property_price,41,0.7482475417545027,0.8216027874564462
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,log_median_household_income,n_eligible_sales,41,0.3129446581292178,0.3380085386116307
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,log_median_property_price,n_eligible_sales,41,0.30154905497223716,0.21047129620765456
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,n_eligible_sales,n_eligible_sales,41,1,0.9999999999999998
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,price_to_income_ratio,n_eligible_sales,41,0.10377797477370933,0.10053140555613965
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,log_median_household_income,price_to_income_ratio,41,0.2166426150214502,0.4278745644599304
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,log_median_property_price,price_to_income_ratio,41,0.7482475417545027,0.8216027874564462
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,n_eligible_sales,price_to_income_ratio,41,0.10377797477370933,0.10053140555613965
+Redfin,Annual ZIP cross-section,2016,2016,2016,41,price_to_income_ratio,price_to_income_ratio,41,1,1
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,log_median_household_income,log_median_household_income,43,1,1
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,log_median_property_price,log_median_household_income,43,0.8008166375514784,0.797825348852671
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,n_eligible_sales,log_median_household_income,43,0.2414069881631591,0.18971377271164472
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,price_to_income_ratio,log_median_household_income,43,0.16089172278293054,0.3948958018725461
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,log_median_household_income,log_median_property_price,43,0.8008166375514784,0.797825348852671
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,log_median_property_price,log_median_property_price,43,1,0.9999999999999998
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,n_eligible_sales,log_median_property_price,43,0.22955079824845365,0.1202749162333053
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,price_to_income_ratio,log_median_property_price,43,0.7056969603837947,0.8372409112321044
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,log_median_household_income,n_eligible_sales,43,0.2414069881631591,0.18971377271164472
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,log_median_property_price,n_eligible_sales,43,0.22955079824845365,0.1202749162333053
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,n_eligible_sales,n_eligible_sales,43,1,1
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,price_to_income_ratio,n_eligible_sales,43,0.05072162666773665,0.10905521010971933
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,log_median_household_income,price_to_income_ratio,43,0.16089172278293054,0.3948958018725461
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,log_median_property_price,price_to_income_ratio,43,0.7056969603837947,0.8372409112321044
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,n_eligible_sales,price_to_income_ratio,43,0.05072162666773665,0.10905521010971933
+Redfin,Annual ZIP cross-section,2017,2017,2017,43,price_to_income_ratio,price_to_income_ratio,43,0.9999999999999999,1
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,log_median_household_income,log_median_household_income,42,1,1
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,log_median_property_price,log_median_household_income,42,0.7938376301648244,0.8160602868487157
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,n_eligible_sales,log_median_household_income,42,0.24682431306521288,0.20414117416521574
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,price_to_income_ratio,log_median_household_income,42,0.03607646267840732,0.3545093590470788
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,log_median_household_income,log_median_property_price,42,0.7938376301648244,0.8160602868487157
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,log_median_property_price,log_median_property_price,42,1,1
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,n_eligible_sales,log_median_property_price,42,0.27432430221378656,0.2411767107247646
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,price_to_income_ratio,log_median_property_price,42,0.6279464420441181,0.8026091888825865
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,log_median_household_income,n_eligible_sales,42,0.24682431306521288,0.20414117416521574
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,log_median_property_price,n_eligible_sales,42,0.27432430221378656,0.2411767107247646
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,n_eligible_sales,n_eligible_sales,42,1,1
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,price_to_income_ratio,n_eligible_sales,42,0.10325782108943339,0.23501762805840637
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,log_median_household_income,price_to_income_ratio,42,0.03607646267840732,0.3545093590470788
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,log_median_property_price,price_to_income_ratio,42,0.6279464420441181,0.8026091888825865
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,n_eligible_sales,price_to_income_ratio,42,0.10325782108943339,0.23501762805840637
+Redfin,Annual ZIP cross-section,2018,2018,2018,42,price_to_income_ratio,price_to_income_ratio,42,0.9999999999999999,1
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,log_median_household_income,log_median_household_income,41,0.9999999999999998,1
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,log_median_property_price,log_median_household_income,41,0.8008630324923592,0.8286946303431018
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,n_eligible_sales,log_median_household_income,41,0.11864440892570528,0.05636379496951677
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,price_to_income_ratio,log_median_household_income,41,-0.03640276036843684,0.3221254355400698
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,log_median_household_income,log_median_property_price,41,0.8008630324923592,0.8286946303431018
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,log_median_property_price,log_median_property_price,41,1,1
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,n_eligible_sales,log_median_property_price,41,0.13496370299843818,0.053926906876966496
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,price_to_income_ratio,log_median_property_price,41,0.558944305612038,0.7564789414379791
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,log_median_household_income,n_eligible_sales,41,0.11864440892570528,0.05636379496951677
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,log_median_property_price,n_eligible_sales,41,0.13496370299843818,0.053926906876966496
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,n_eligible_sales,n_eligible_sales,41,1,0.9999999999999998
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,price_to_income_ratio,n_eligible_sales,41,0.01138239388732998,0.14051746721148461
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,log_median_household_income,price_to_income_ratio,41,-0.03640276036843684,0.3221254355400698
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,log_median_property_price,price_to_income_ratio,41,0.558944305612038,0.7564789414379791
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,n_eligible_sales,price_to_income_ratio,41,0.01138239388732998,0.14051746721148461
+Redfin,Annual ZIP cross-section,2019,2019,2019,41,price_to_income_ratio,price_to_income_ratio,41,0.9999999999999999,1
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,log_median_household_income,log_median_household_income,40,1,0.9999999999999998
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,log_median_property_price,log_median_household_income,40,0.8323886371612857,0.8532833020637898
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,n_eligible_sales,log_median_household_income,40,0.2265961839497515,0.17833857142373563
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,price_to_income_ratio,log_median_household_income,40,-0.02388861196052913,0.2902439024390243
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,log_median_household_income,log_median_property_price,40,0.8323886371612857,0.8532833020637898
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,log_median_property_price,log_median_property_price,40,1,0.9999999999999998
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,n_eligible_sales,log_median_property_price,40,0.21258504091333574,0.12167550086090748
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,price_to_income_ratio,log_median_property_price,40,0.5263200037029641,0.697748592870544
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,log_median_household_income,n_eligible_sales,40,0.2265961839497515,0.17833857142373563
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,log_median_property_price,n_eligible_sales,40,0.21258504091333574,0.12167550086090748
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,n_eligible_sales,n_eligible_sales,40,0.9999999999999998,1
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,price_to_income_ratio,n_eligible_sales,40,0.012287771631400402,0.09522022619415658
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,log_median_household_income,price_to_income_ratio,40,-0.02388861196052913,0.2902439024390243
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,log_median_property_price,price_to_income_ratio,40,0.5263200037029641,0.697748592870544
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,n_eligible_sales,price_to_income_ratio,40,0.012287771631400402,0.09522022619415658
+Redfin,Annual ZIP cross-section,2020,2020,2020,40,price_to_income_ratio,price_to_income_ratio,40,0.9999999999999998,0.9999999999999998
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,log_median_household_income,log_median_household_income,44,1,1
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,log_median_property_price,log_median_household_income,44,0.8270385666315848,0.8482029598308669
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,n_eligible_sales,log_median_household_income,44,0.2904533218317184,0.28351950403450554
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,price_to_income_ratio,log_median_household_income,44,-0.08937211900070544,0.12107117688513039
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,log_median_household_income,log_median_property_price,44,0.8270385666315848,0.8482029598308669
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,log_median_property_price,log_median_property_price,44,1,1
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,n_eligible_sales,log_median_property_price,44,0.21016204935132113,0.20839353055680657
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,price_to_income_ratio,log_median_property_price,44,0.47782819736582643,0.5489781536293163
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,log_median_household_income,n_eligible_sales,44,0.2904533218317184,0.28351950403450554
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,log_median_property_price,n_eligible_sales,44,0.21016204935132113,0.20839353055680657
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,n_eligible_sales,n_eligible_sales,44,1,0.9999999999999998
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,price_to_income_ratio,n_eligible_sales,44,-0.10066181769053363,0.020508122215769604
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,log_median_household_income,price_to_income_ratio,44,-0.08937211900070544,0.12107117688513039
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,log_median_property_price,price_to_income_ratio,44,0.47782819736582643,0.5489781536293163
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,n_eligible_sales,price_to_income_ratio,44,-0.10066181769053363,0.020508122215769604
+Redfin,Annual ZIP cross-section,2021,2021,2021,44,price_to_income_ratio,price_to_income_ratio,44,1,1
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,log_median_household_income,log_median_household_income,42,1,1
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,log_median_property_price,log_median_household_income,42,0.869152352264784,0.8770309151884986
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,n_eligible_sales,log_median_household_income,42,0.2365812478651949,0.20582634432031657
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,price_to_income_ratio,log_median_household_income,42,-0.0996941036342572,0.017259541366177782
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,log_median_household_income,log_median_property_price,42,0.869152352264784,0.8770309151884986
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,log_median_property_price,log_median_property_price,42,1,1
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,n_eligible_sales,log_median_property_price,42,0.18709285734175285,0.10980551053484604
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,price_to_income_ratio,log_median_property_price,42,0.4007060712969659,0.43231635706649174
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,log_median_household_income,n_eligible_sales,42,0.2365812478651949,0.20582634432031657
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,log_median_property_price,n_eligible_sales,42,0.18709285734175285,0.10980551053484604
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,n_eligible_sales,n_eligible_sales,42,1,1
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,price_to_income_ratio,n_eligible_sales,42,-0.10504042460153543,-0.01134475913576548
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,log_median_household_income,price_to_income_ratio,42,-0.0996941036342572,0.017259541366177782
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,log_median_property_price,price_to_income_ratio,42,0.4007060712969659,0.43231635706649174
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,n_eligible_sales,price_to_income_ratio,42,-0.10504042460153543,-0.01134475913576548
+Redfin,Annual ZIP cross-section,2022,2022,2022,42,price_to_income_ratio,price_to_income_ratio,42,1,1
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,log_median_household_income,log_median_household_income,41,1,1
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,log_median_property_price,log_median_household_income,41,0.8896163004620268,0.8824426159335248
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,n_eligible_sales,log_median_household_income,41,0.171137646815949,0.1261598810150105
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,price_to_income_ratio,log_median_household_income,41,0.07114970021864808,0.15052264808362373
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,log_median_household_income,log_median_property_price,41,0.8896163004620268,0.8824426159335248
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,log_median_property_price,log_median_property_price,41,1,1
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,n_eligible_sales,log_median_property_price,41,0.10302768962780857,0.014202317894477493
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,price_to_income_ratio,log_median_property_price,41,0.5154286294696803,0.5402674337630524
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,log_median_household_income,n_eligible_sales,41,0.171137646815949,0.1261598810150105
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,log_median_property_price,n_eligible_sales,41,0.10302768962780857,0.014202317894477493
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,n_eligible_sales,n_eligible_sales,41,1,0.9999999999999998
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,price_to_income_ratio,n_eligible_sales,41,-0.13167097838633932,-0.06177303566273649
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,log_median_household_income,price_to_income_ratio,41,0.07114970021864808,0.15052264808362373
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,log_median_property_price,price_to_income_ratio,41,0.5154286294696803,0.5402674337630524
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,n_eligible_sales,price_to_income_ratio,41,-0.13167097838633932,-0.06177303566273649
+Redfin,Annual ZIP cross-section,2023,2023,2023,41,price_to_income_ratio,price_to_income_ratio,41,1,1
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,log_median_household_income,log_median_household_income,39,1,1
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,log_median_property_price,log_median_household_income,39,0.9078648965843723,0.923326080437507
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,n_eligible_sales,log_median_household_income,39,0.23245472853375668,0.22007390039609528
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,price_to_income_ratio,log_median_household_income,39,0.16277971497987484,0.2639676113360324
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,log_median_household_income,log_median_property_price,39,0.9078648965843723,0.923326080437507
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,log_median_property_price,log_median_property_price,39,1,1
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,n_eligible_sales,log_median_property_price,39,0.08342094254554876,0.045555780755813055
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,price_to_income_ratio,log_median_property_price,39,0.5587165522729602,0.5750291013994164
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,log_median_household_income,n_eligible_sales,39,0.23245472853375668,0.22007390039609528
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,log_median_property_price,n_eligible_sales,39,0.08342094254554876,0.045555780755813055
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,n_eligible_sales,n_eligible_sales,39,0.9999999999999998,1
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,price_to_income_ratio,n_eligible_sales,39,-0.27669195443285693,-0.2701827231633755
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,log_median_household_income,price_to_income_ratio,39,0.16277971497987484,0.2639676113360324
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,log_median_property_price,price_to_income_ratio,39,0.5587165522729602,0.5750291013994164
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,n_eligible_sales,price_to_income_ratio,39,-0.27669195443285693,-0.2701827231633755
+Redfin,Annual ZIP cross-section,2024,2024,2024,39,price_to_income_ratio,price_to_income_ratio,39,1,1
+Redfin,Pooled ZIP-years,NA,2012,2024,44,log_median_household_income,log_median_household_income,515,1,0.9999999999999999
+Redfin,Pooled ZIP-years,NA,2012,2024,44,log_median_property_price,log_median_household_income,515,0.830950997723656,0.853289108786964
+Redfin,Pooled ZIP-years,NA,2012,2024,44,n_eligible_sales,log_median_household_income,515,0.21973605922154982,0.2023710325815675
+Redfin,Pooled ZIP-years,NA,2012,2024,44,price_to_income_ratio,log_median_household_income,515,0.20748585160021885,0.4020418485206586
+Redfin,Pooled ZIP-years,NA,2012,2024,44,log_median_household_income,log_median_property_price,515,0.830950997723656,0.853289108786964
+Redfin,Pooled ZIP-years,NA,2012,2024,44,log_median_property_price,log_median_property_price,515,1,1
+Redfin,Pooled ZIP-years,NA,2012,2024,44,n_eligible_sales,log_median_property_price,515,0.24082912154535516,0.18007443703778905
+Redfin,Pooled ZIP-years,NA,2012,2024,44,price_to_income_ratio,log_median_property_price,515,0.6943540346816951,0.784162932669686
+Redfin,Pooled ZIP-years,NA,2012,2024,44,log_median_household_income,n_eligible_sales,515,0.21973605922154982,0.2023710325815675
+Redfin,Pooled ZIP-years,NA,2012,2024,44,log_median_property_price,n_eligible_sales,515,0.24082912154535516,0.18007443703778905
+Redfin,Pooled ZIP-years,NA,2012,2024,44,n_eligible_sales,n_eligible_sales,515,1,1
+Redfin,Pooled ZIP-years,NA,2012,2024,44,price_to_income_ratio,n_eligible_sales,515,0.10385571029692153,0.1310373895877677
+Redfin,Pooled ZIP-years,NA,2012,2024,44,log_median_household_income,price_to_income_ratio,515,0.20748585160021885,0.4020418485206586
+Redfin,Pooled ZIP-years,NA,2012,2024,44,log_median_property_price,price_to_income_ratio,515,0.6943540346816951,0.784162932669686
+Redfin,Pooled ZIP-years,NA,2012,2024,44,n_eligible_sales,price_to_income_ratio,515,0.10385571029692153,0.1310373895877677
+Redfin,Pooled ZIP-years,NA,2012,2024,44,price_to_income_ratio,price_to_income_ratio,515,1,1

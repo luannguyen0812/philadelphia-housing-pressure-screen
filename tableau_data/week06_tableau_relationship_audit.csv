@@ -1,0 +1,5 @@
+table_name,grain,rows,unique_primary_key,orphan_geography_keys,tableau_relationship
+dim_geography,one row per geography_key,38,TRUE,0,Root dimension
+fact_zip_profile,one row per geography_key,38,TRUE,0,dim_geography.geography_key = fact_zip_profile.geography_key
+fact_annual_signals,one row per geography_key + year,456,TRUE,0,dim_geography.geography_key = fact_annual_signals.geography_key
+fact_monthly_forecast,one row per geography_key + month + series_type,624,TRUE,0,dim_geography.geography_key = fact_monthly_forecast.geography_key

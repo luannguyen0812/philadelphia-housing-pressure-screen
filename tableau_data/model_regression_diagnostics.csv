@@ -1,0 +1,3 @@
+outcome,observations,adjusted_r_squared,residual_ljung_box_p
+Monthly deeds,300,0.7087583487795991,0.18703396382595905
+Monthly mortgages,300,0.8610178895931164,0.027441713142196122

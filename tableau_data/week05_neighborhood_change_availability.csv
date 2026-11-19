@@ -1,0 +1,8 @@
+measure,endpoint_status,week05_use
+Median household income,2010-2014 and 2020-2024 available,Implemented
+Median sale price,2014 and 2024 Redfin available,Implemented
+Educational attainment,Historical ACS table not cached,Pending Census-key/bulk build
+Tenure,2020-2024 available; historical endpoint not cached,Pending Census-key/bulk build
+Poverty,2020-2024 available; historical endpoint not cached,Pending Census-key/bulk build
+Senior share,2020-2024 available; historical endpoint not cached,Pending Census-key/bulk build
+Median gross rent and burden,2020-2024 available; historical endpoint not cached,Pending Census-key/bulk build

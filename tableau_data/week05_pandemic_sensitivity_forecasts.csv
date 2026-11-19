@@ -1,0 +1,721 @@
+zip5,month,specification,forecast_sales,interpretation
+19132,2026-01-01,Full history + shock indicators,49.534101156126624,Primary: all observations retained with identified shock periods
+19132,2026-02-01,Full history + shock indicators,46.50925368991663,Primary: all observations retained with identified shock periods
+19132,2026-03-01,Full history + shock indicators,49.122048342636994,Primary: all observations retained with identified shock periods
+19132,2026-04-01,Full history + shock indicators,46.86517556688753,Primary: all observations retained with identified shock periods
+19132,2026-05-01,Full history + shock indicators,48.81461109585876,Primary: all observations retained with identified shock periods
+19132,2026-06-01,Full history + shock indicators,47.13073288949716,Primary: all observations retained with identified shock periods
+19132,2026-07-01,Full history + shock indicators,48.58522870211626,Primary: all observations retained with identified shock periods
+19132,2026-08-01,Full history + shock indicators,47.328868199952844,Primary: all observations retained with identified shock periods
+19132,2026-09-01,Full history + shock indicators,48.414083913674304,Primary: all observations retained with identified shock periods
+19132,2026-10-01,Full history + shock indicators,47.47669918749099,Primary: all observations retained with identified shock periods
+19132,2026-11-01,Full history + shock indicators,48.28639085871507,Primary: all observations retained with identified shock periods
+19132,2026-12-01,Full history + shock indicators,47.586997552917346,Primary: all observations retained with identified shock periods
+19132,2027-01-01,Full history + shock indicators,48.19111763168163,Primary: all observations retained with identified shock periods
+19132,2027-02-01,Full history + shock indicators,47.66929240610288,Primary: all observations retained with identified shock periods
+19132,2027-03-01,Full history + shock indicators,48.12003320354053,Primary: all observations retained with identified shock periods
+19132,2027-04-01,Full history + shock indicators,47.730693523287634,Primary: all observations retained with identified shock periods
+19132,2027-05-01,Full history + shock indicators,48.066996310790245,Primary: all observations retained with identified shock periods
+19132,2027-06-01,Full history + shock indicators,47.77650558863071,Primary: all observations retained with identified shock periods
+19132,2027-07-01,Full history + shock indicators,48.02742488753813,Primary: all observations retained with identified shock periods
+19132,2027-08-01,Full history + shock indicators,47.810686486751564,Primary: all observations retained with identified shock periods
+19132,2027-09-01,Full history + shock indicators,47.99790020279518,Primary: all observations retained with identified shock periods
+19132,2027-10-01,Full history + shock indicators,47.83618923995858,Primary: all observations retained with identified shock periods
+19132,2027-11-01,Full history + shock indicators,47.97587150285137,Primary: all observations retained with identified shock periods
+19132,2027-12-01,Full history + shock indicators,47.855217131467995,Primary: all observations retained with identified shock periods
+19132,2028-01-01,Full history + shock indicators,47.95943564162408,Primary: all observations retained with identified shock periods
+19132,2028-02-01,Full history + shock indicators,47.86941405571202,Primary: all observations retained with identified shock periods
+19132,2028-03-01,Full history + shock indicators,47.94717266037817,Primary: all observations retained with identified shock periods
+19132,2028-04-01,Full history + shock indicators,47.88000654084842,Primary: all observations retained with identified shock periods
+19132,2028-05-01,Full history + shock indicators,47.93802311190256,Primary: all observations retained with identified shock periods
+19132,2028-06-01,Full history + shock indicators,47.88790971335511,Primary: all observations retained with identified shock periods
+19132,2028-07-01,Full history + shock indicators,47.93119653069618,Primary: all observations retained with identified shock periods
+19132,2028-08-01,Full history + shock indicators,47.89380635940806,Primary: all observations retained with identified shock periods
+19132,2028-09-01,Full history + shock indicators,47.926103141542434,Primary: all observations retained with identified shock periods
+19132,2028-10-01,Full history + shock indicators,47.89820591346617,Primary: all observations retained with identified shock periods
+19132,2028-11-01,Full history + shock indicators,47.922302906507184,Primary: all observations retained with identified shock periods
+19132,2028-12-01,Full history + shock indicators,47.90148847031907,Primary: all observations retained with identified shock periods
+19132,2029-01-01,Full history + shock indicators,47.91946750832982,Primary: all observations retained with identified shock periods
+19132,2029-02-01,Full history + shock indicators,47.90393762297187,Primary: all observations retained with identified shock periods
+19132,2029-03-01,Full history + shock indicators,47.91735198580301,Primary: all observations retained with identified shock periods
+19132,2029-04-01,Full history + shock indicators,47.90576496336092,Primary: all observations retained with identified shock periods
+19132,2029-05-01,Full history + shock indicators,47.91577357060999,Primary: all observations retained with identified shock periods
+19132,2029-06-01,Full history + shock indicators,47.907128362613996,Primary: all observations retained with identified shock periods
+19132,2029-07-01,Full history + shock indicators,47.914595897250344,Primary: all observations retained with identified shock periods
+19132,2029-08-01,Full history + shock indicators,47.90814561015825,Primary: all observations retained with identified shock periods
+19132,2029-09-01,Full history + shock indicators,47.913717221887765,Primary: all observations retained with identified shock periods
+19132,2029-10-01,Full history + shock indicators,47.908904590012426,Primary: all observations retained with identified shock periods
+19132,2029-11-01,Full history + shock indicators,47.91306163229964,Primary: all observations retained with identified shock periods
+19132,2029-12-01,Full history + shock indicators,47.90947087343312,Primary: all observations retained with identified shock periods
+19132,2030-01-01,Full history + shock indicators,47.91257248952135,Primary: all observations retained with identified shock periods
+19132,2030-02-01,Full history + shock indicators,47.909893383873666,Primary: all observations retained with identified shock periods
+19132,2030-03-01,Full history + shock indicators,47.91220753458327,Primary: all observations retained with identified shock periods
+19132,2030-04-01,Full history + shock indicators,47.91020862367382,Primary: all observations retained with identified shock periods
+19132,2030-05-01,Full history + shock indicators,47.911935237591976,Primary: all observations retained with identified shock periods
+19132,2030-06-01,Full history + shock indicators,47.91044382764054,Primary: all observations retained with identified shock periods
+19132,2030-07-01,Full history + shock indicators,47.91173207373878,Primary: all observations retained with identified shock periods
+19132,2030-08-01,Full history + shock indicators,47.91061931597017,Primary: all observations retained with identified shock periods
+19132,2030-09-01,Full history + shock indicators,47.91158049089885,Primary: all observations retained with identified shock periods
+19132,2030-10-01,Full history + shock indicators,47.910750249790155,Primary: all observations retained with identified shock periods
+19132,2030-11-01,Full history + shock indicators,47.911467393234076,Primary: all observations retained with identified shock periods
+19132,2030-12-01,Full history + shock indicators,47.91084794098848,Primary: all observations retained with identified shock periods
+19132,2031-01-01,Full history + shock indicators,47.91138300979211,Primary: all observations retained with identified shock periods
+19132,2031-02-01,Full history + shock indicators,47.910920829492255,Primary: all observations retained with identified shock periods
+19132,2031-03-01,Full history + shock indicators,47.91132005035531,Primary: all observations retained with identified shock periods
+19132,2031-04-01,Full history + shock indicators,47.91097521242616,Primary: all observations retained with identified shock periods
+19132,2031-05-01,Full history + shock indicators,47.91127307561014,Primary: all observations retained with identified shock periods
+19132,2031-06-01,Full history + shock indicators,47.91101578814588,Primary: all observations retained with identified shock periods
+19132,2031-07-01,Full history + shock indicators,47.9112380272235,Primary: all observations retained with identified shock periods
+19132,2031-08-01,Full history + shock indicators,47.911046062147534,Primary: all observations retained with identified shock periods
+19132,2031-09-01,Full history + shock indicators,47.91121187722733,Primary: all observations retained with identified shock periods
+19132,2031-10-01,Full history + shock indicators,47.91106864992127,Primary: all observations retained with identified shock periods
+19132,2031-11-01,Full history + shock indicators,47.91119236642056,Primary: all observations retained with identified shock periods
+19132,2031-12-01,Full history + shock indicators,47.91108550291375,Primary: all observations retained with identified shock periods
+19132,2032-01-01,Full history + shock indicators,47.91117780918779,Primary: all observations retained with identified shock periods
+19132,2032-02-01,Full history + shock indicators,47.91109807712132,Primary: all observations retained with identified shock periods
+19132,2032-03-01,Full history + shock indicators,47.91116694787241,Primary: all observations retained with identified shock periods
+19132,2032-04-01,Full history + shock indicators,47.91110745887927,Primary: all observations retained with identified shock periods
+19132,2032-05-01,Full history + shock indicators,47.91115884412263,Primary: all observations retained with identified shock periods
+19132,2032-06-01,Full history + shock indicators,47.911114458714586,Primary: all observations retained with identified shock periods
+19132,2032-07-01,Full history + shock indicators,47.91115279782362,Primary: all observations retained with identified shock periods
+19132,2032-08-01,Full history + shock indicators,47.91111968137058,Primary: all observations retained with identified shock periods
+19132,2032-09-01,Full history + shock indicators,47.9111482866118,Primary: all observations retained with identified shock periods
+19132,2032-10-01,Full history + shock indicators,47.91112357805306,Primary: all observations retained with identified shock periods
+19132,2032-11-01,Full history + shock indicators,47.911144920745826,Primary: all observations retained with identified shock periods
+19132,2032-12-01,Full history + shock indicators,47.911126485411756,Primary: all observations retained with identified shock periods
+19132,2033-01-01,Full history + shock indicators,47.9111424094353,Primary: all observations retained with identified shock periods
+19132,2033-02-01,Full history + shock indicators,47.91112865462484,Primary: all observations retained with identified shock periods
+19132,2033-03-01,Full history + shock indicators,47.911140535718225,Primary: all observations retained with identified shock periods
+19132,2033-04-01,Full history + shock indicators,47.91113027309916,Primary: all observations retained with identified shock periods
+19132,2033-05-01,Full history + shock indicators,47.9111391377168,Primary: all observations retained with identified shock periods
+19132,2033-06-01,Full history + shock indicators,47.91113148066109,Primary: all observations retained with identified shock periods
+19132,2033-07-01,Full history + shock indicators,47.91113809465219,Primary: all observations retained with identified shock periods
+19132,2033-08-01,Full history + shock indicators,47.91113238163665,Primary: all observations retained with identified shock periods
+19132,2033-09-01,Full history + shock indicators,47.91113731640993,Primary: all observations retained with identified shock periods
+19132,2033-10-01,Full history + shock indicators,47.91113305386467,Primary: all observations retained with identified shock periods
+19132,2033-11-01,Full history + shock indicators,47.91113673575461,Primary: all observations retained with identified shock periods
+19132,2033-12-01,Full history + shock indicators,47.911133555421564,Primary: all observations retained with identified shock periods
+19132,2034-01-01,Full history + shock indicators,47.911136302521136,Primary: all observations retained with identified shock periods
+19132,2034-02-01,Full history + shock indicators,47.911133929638815,Primary: all observations retained with identified shock periods
+19132,2034-03-01,Full history + shock indicators,47.91113597928076,Primary: all observations retained with identified shock periods
+19132,2034-04-01,Full history + shock indicators,47.911134208846526,Primary: all observations retained with identified shock periods
+19132,2034-05-01,Full history + shock indicators,47.911135738107475,Primary: all observations retained with identified shock periods
+19132,2034-06-01,Full history + shock indicators,47.911134417166544,Primary: all observations retained with identified shock periods
+19132,2034-07-01,Full history + shock indicators,47.91113555816537,Primary: all observations retained with identified shock periods
+19132,2034-08-01,Full history + shock indicators,47.91113457259646,Primary: all observations retained with identified shock periods
+19132,2034-09-01,Full history + shock indicators,47.91113542390854,Primary: all observations retained with identified shock periods
+19132,2034-10-01,Full history + shock indicators,47.911134688564474,Primary: all observations retained with identified shock periods
+19132,2034-11-01,Full history + shock indicators,47.91113532373801,Primary: all observations retained with identified shock periods
+19132,2034-12-01,Full history + shock indicators,47.911134775089515,Primary: all observations retained with identified shock periods
+19132,2035-01-01,Full history + shock indicators,47.91113524899964,Primary: all observations retained with identified shock periods
+19132,2035-02-01,Full history + shock indicators,47.91113483964682,Primary: all observations retained with identified shock periods
+19132,2035-03-01,Full history + shock indicators,47.911135193236504,Primary: all observations retained with identified shock periods
+19132,2035-04-01,Full history + shock indicators,47.91113488781375,Primary: all observations retained with identified shock periods
+19132,2035-05-01,Full history + shock indicators,47.911135151631,Primary: all observations retained with identified shock periods
+19132,2035-06-01,Full history + shock indicators,47.911134923751646,Primary: all observations retained with identified shock periods
+19132,2035-07-01,Full history + shock indicators,47.91113512058867,Primary: all observations retained with identified shock periods
+19132,2035-08-01,Full history + shock indicators,47.91113495056531,Primary: all observations retained with identified shock periods
+19132,2035-09-01,Full history + shock indicators,47.91113509742763,Primary: all observations retained with identified shock periods
+19132,2035-10-01,Full history + shock indicators,47.91113497057129,Primary: all observations retained with identified shock periods
+19132,2035-11-01,Full history + shock indicators,47.91113508014692,Primary: all observations retained with identified shock periods
+19132,2035-12-01,Full history + shock indicators,47.911134985497974,Primary: all observations retained with identified shock periods
+19143,2026-01-01,Full history + shock indicators,87.31396287910323,Primary: all observations retained with identified shock periods
+19143,2026-02-01,Full history + shock indicators,76.92136798026172,Primary: all observations retained with identified shock periods
+19143,2026-03-01,Full history + shock indicators,86.4435898479225,Primary: all observations retained with identified shock periods
+19143,2026-04-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2026-05-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2026-06-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2026-07-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2026-08-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2026-09-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2026-10-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2026-11-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2026-12-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-01-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-02-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-03-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-04-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-05-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-06-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-07-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-08-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-09-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-10-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-11-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2027-12-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-01-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-02-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-03-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-04-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-05-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-06-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-07-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-08-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-09-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-10-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-11-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2028-12-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-01-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-02-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-03-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-04-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-05-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-06-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-07-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-08-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-09-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-10-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-11-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2029-12-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-01-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-02-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-03-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-04-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-05-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-06-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-07-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-08-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-09-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-10-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-11-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2030-12-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-01-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-02-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-03-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-04-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-05-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-06-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-07-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-08-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-09-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-10-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-11-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2031-12-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-01-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-02-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-03-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-04-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-05-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-06-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-07-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-08-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-09-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-10-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-11-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2032-12-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-01-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-02-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-03-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-04-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-05-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-06-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-07-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-08-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-09-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-10-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-11-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2033-12-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-01-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-02-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-03-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-04-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-05-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-06-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-07-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-08-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-09-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-10-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-11-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2034-12-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-01-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-02-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-03-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-04-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-05-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-06-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-07-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-08-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-09-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-10-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-11-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19143,2035-12-01,Full history + shock indicators,77.74502736592635,Primary: all observations retained with identified shock periods
+19132,2026-01-01,Pandemic/backlog months excluded,49.902329391302786,Sensitivity: disruption observations omitted from estimation
+19132,2026-02-01,Pandemic/backlog months excluded,51.06525242090858,Sensitivity: disruption observations omitted from estimation
+19132,2026-03-01,Pandemic/backlog months excluded,50.11230988016104,Sensitivity: disruption observations omitted from estimation
+19132,2026-04-01,Pandemic/backlog months excluded,48.930810280771404,Sensitivity: disruption observations omitted from estimation
+19132,2026-05-01,Pandemic/backlog months excluded,49.14485591037365,Sensitivity: disruption observations omitted from estimation
+19132,2026-06-01,Pandemic/backlog months excluded,50.295108855278684,Sensitivity: disruption observations omitted from estimation
+19132,2026-07-01,Pandemic/backlog months excluded,48.08848690112514,Sensitivity: disruption observations omitted from estimation
+19132,2026-08-01,Pandemic/backlog months excluded,49.21082294130089,Sensitivity: disruption observations omitted from estimation
+19132,2026-09-01,Pandemic/backlog months excluded,49.70548851959022,Sensitivity: disruption observations omitted from estimation
+19132,2026-10-01,Pandemic/backlog months excluded,50.44573592552889,Sensitivity: disruption observations omitted from estimation
+19132,2026-11-01,Pandemic/backlog months excluded,48.98806262223265,Sensitivity: disruption observations omitted from estimation
+19132,2026-12-01,Pandemic/backlog months excluded,49.1253565608866,Sensitivity: disruption observations omitted from estimation
+19132,2027-01-01,Pandemic/backlog months excluded,49.79323135100086,Sensitivity: disruption observations omitted from estimation
+19132,2027-02-01,Pandemic/backlog months excluded,49.83761298548764,Sensitivity: disruption observations omitted from estimation
+19132,2027-03-01,Pandemic/backlog months excluded,49.89973931447193,Sensitivity: disruption observations omitted from estimation
+19132,2027-04-01,Pandemic/backlog months excluded,49.9739828225578,Sensitivity: disruption observations omitted from estimation
+19132,2027-05-01,Pandemic/backlog months excluded,50.05650069284245,Sensitivity: disruption observations omitted from estimation
+19132,2027-06-01,Pandemic/backlog months excluded,50.144668811359224,Sensitivity: disruption observations omitted from estimation
+19132,2027-07-01,Pandemic/backlog months excluded,50.2366952701707,Sensitivity: disruption observations omitted from estimation
+19132,2027-08-01,Pandemic/backlog months excluded,50.33135644328463,Sensitivity: disruption observations omitted from estimation
+19132,2027-09-01,Pandemic/backlog months excluded,50.42781676290341,Sensitivity: disruption observations omitted from estimation
+19132,2027-10-01,Pandemic/backlog months excluded,50.52550565145766,Sensitivity: disruption observations omitted from estimation
+19132,2027-11-01,Pandemic/backlog months excluded,50.62403348315807,Sensitivity: disruption observations omitted from estimation
+19132,2027-12-01,Pandemic/backlog months excluded,50.72313419732539,Sensitivity: disruption observations omitted from estimation
+19132,2028-01-01,Pandemic/backlog months excluded,50.82262611120915,Sensitivity: disruption observations omitted from estimation
+19132,2028-02-01,Pandemic/backlog months excluded,50.92238516054736,Sensitivity: disruption observations omitted from estimation
+19132,2028-03-01,Pandemic/backlog months excluded,51.02232662655925,Sensitivity: disruption observations omitted from estimation
+19132,2028-04-01,Pandemic/backlog months excluded,51.122392658001466,Sensitivity: disruption observations omitted from estimation
+19132,2028-05-01,Pandemic/backlog months excluded,51.2225437504533,Sensitivity: disruption observations omitted from estimation
+19132,2028-06-01,Pandemic/backlog months excluded,51.322752927843595,Sensitivity: disruption observations omitted from estimation
+19132,2028-07-01,Pandemic/backlog months excluded,51.42300176923615,Sensitivity: disruption observations omitted from estimation
+19132,2028-08-01,Pandemic/backlog months excluded,51.52327769567202,Sensitivity: disruption observations omitted from estimation
+19132,2028-09-01,Pandemic/backlog months excluded,51.62357211745707,Sensitivity: disruption observations omitted from estimation
+19132,2028-10-01,Pandemic/backlog months excluded,51.72387916901486,Sensitivity: disruption observations omitted from estimation
+19132,2028-11-01,Pandemic/backlog months excluded,51.82419484496559,Sensitivity: disruption observations omitted from estimation
+19132,2028-12-01,Pandemic/backlog months excluded,51.92451641018729,Sensitivity: disruption observations omitted from estimation
+19132,2029-01-01,Pandemic/backlog months excluded,52.02484199696883,Sensitivity: disruption observations omitted from estimation
+19132,2029-02-01,Pandemic/backlog months excluded,52.12517032992113,Sensitivity: disruption observations omitted from estimation
+19132,2029-03-01,Pandemic/backlog months excluded,52.225500538129324,Sensitivity: disruption observations omitted from estimation
+19132,2029-04-01,Pandemic/backlog months excluded,52.32583202687866,Sensitivity: disruption observations omitted from estimation
+19132,2029-05-01,Pandemic/backlog months excluded,52.426164390061,Sensitivity: disruption observations omitted from estimation
+19132,2029-06-01,Pandemic/backlog months excluded,52.52649735036047,Sensitivity: disruption observations omitted from estimation
+19132,2029-07-01,Pandemic/backlog months excluded,52.62683071840861,Sensitivity: disruption observations omitted from estimation
+19132,2029-08-01,Pandemic/backlog months excluded,52.72716436489284,Sensitivity: disruption observations omitted from estimation
+19132,2029-09-01,Pandemic/backlog months excluded,52.82749820151054,Sensitivity: disruption observations omitted from estimation
+19132,2029-10-01,Pandemic/backlog months excluded,52.92783216796315,Sensitivity: disruption observations omitted from estimation
+19132,2029-11-01,Pandemic/backlog months excluded,53.02816622307512,Sensitivity: disruption observations omitted from estimation
+19132,2029-12-01,Pandemic/backlog months excluded,53.1285003387292,Sensitivity: disruption observations omitted from estimation
+19132,2030-01-01,Pandemic/backlog months excluded,53.22883449572518,Sensitivity: disruption observations omitted from estimation
+19132,2030-02-01,Pandemic/backlog months excluded,53.32916868095199,Sensitivity: disruption observations omitted from estimation
+19132,2030-03-01,Pandemic/backlog months excluded,53.42950288545656,Sensitivity: disruption observations omitted from estimation
+19132,2030-04-01,Pandemic/backlog months excluded,53.529837103125175,Sensitivity: disruption observations omitted from estimation
+19132,2030-05-01,Pandemic/backlog months excluded,53.630171329783025,Sensitivity: disruption observations omitted from estimation
+19132,2030-06-01,Pandemic/backlog months excluded,53.73050556257928,Sensitivity: disruption observations omitted from estimation
+19132,2030-07-01,Pandemic/backlog months excluded,53.830839799567215,Sensitivity: disruption observations omitted from estimation
+19132,2030-08-01,Pandemic/backlog months excluded,53.9311740394175,Sensitivity: disruption observations omitted from estimation
+19132,2030-09-01,Pandemic/backlog months excluded,54.031508281222365,Sensitivity: disruption observations omitted from estimation
+19132,2030-10-01,Pandemic/backlog months excluded,54.13184252436194,Sensitivity: disruption observations omitted from estimation
+19132,2030-11-01,Pandemic/backlog months excluded,54.23217676841295,Sensitivity: disruption observations omitted from estimation
+19132,2030-12-01,Pandemic/backlog months excluded,54.332511013086325,Sensitivity: disruption observations omitted from estimation
+19132,2031-01-01,Pandemic/backlog months excluded,54.4328452581847,Sensitivity: disruption observations omitted from estimation
+19132,2031-02-01,Pandemic/backlog months excluded,54.533179503573294,Sensitivity: disruption observations omitted from estimation
+19132,2031-03-01,Pandemic/backlog months excluded,54.633513749160066,Sensitivity: disruption observations omitted from estimation
+19132,2031-04-01,Pandemic/backlog months excluded,54.73384799488216,Sensitivity: disruption observations omitted from estimation
+19132,2031-05-01,Pandemic/backlog months excluded,54.83418224069666,Sensitivity: disruption observations omitted from estimation
+19132,2031-06-01,Pandemic/backlog months excluded,54.93451648657428,Sensitivity: disruption observations omitted from estimation
+19132,2031-07-01,Pandemic/backlog months excluded,55.034850732494974,Sensitivity: disruption observations omitted from estimation
+19132,2031-08-01,Pandemic/backlog months excluded,55.135184978445096,Sensitivity: disruption observations omitted from estimation
+19132,2031-09-01,Pandemic/backlog months excluded,55.23551922441531,Sensitivity: disruption observations omitted from estimation
+19132,2031-10-01,Pandemic/backlog months excluded,55.33585347039926,Sensitivity: disruption observations omitted from estimation
+19132,2031-11-01,Pandemic/backlog months excluded,55.43618771639257,Sensitivity: disruption observations omitted from estimation
+19132,2031-12-01,Pandemic/backlog months excluded,55.53652196239227,Sensitivity: disruption observations omitted from estimation
+19132,2032-01-01,Pandemic/backlog months excluded,55.636856208396345,Sensitivity: disruption observations omitted from estimation
+19132,2032-02-01,Pandemic/backlog months excluded,55.737190454403404,Sensitivity: disruption observations omitted from estimation
+19132,2032-03-01,Pandemic/backlog months excluded,55.8375247004125,Sensitivity: disruption observations omitted from estimation
+19132,2032-04-01,Pandemic/backlog months excluded,55.93785894642299,Sensitivity: disruption observations omitted from estimation
+19132,2032-05-01,Pandemic/backlog months excluded,56.03819319243442,Sensitivity: disruption observations omitted from estimation
+19132,2032-06-01,Pandemic/backlog months excluded,56.13852743844651,Sensitivity: disruption observations omitted from estimation
+19132,2032-07-01,Pandemic/backlog months excluded,56.23886168445904,Sensitivity: disruption observations omitted from estimation
+19132,2032-08-01,Pandemic/backlog months excluded,56.339195930471874,Sensitivity: disruption observations omitted from estimation
+19132,2032-09-01,Pandemic/backlog months excluded,56.43953017648491,Sensitivity: disruption observations omitted from estimation
+19132,2032-10-01,Pandemic/backlog months excluded,56.53986442249809,Sensitivity: disruption observations omitted from estimation
+19132,2032-11-01,Pandemic/backlog months excluded,56.640198668511374,Sensitivity: disruption observations omitted from estimation
+19132,2032-12-01,Pandemic/backlog months excluded,56.74053291452471,Sensitivity: disruption observations omitted from estimation
+19132,2033-01-01,Pandemic/backlog months excluded,56.840867160538096,Sensitivity: disruption observations omitted from estimation
+19132,2033-02-01,Pandemic/backlog months excluded,56.941201406551514,Sensitivity: disruption observations omitted from estimation
+19132,2033-03-01,Pandemic/backlog months excluded,57.041535652564946,Sensitivity: disruption observations omitted from estimation
+19132,2033-04-01,Pandemic/backlog months excluded,57.1418698985784,Sensitivity: disruption observations omitted from estimation
+19132,2033-05-01,Pandemic/backlog months excluded,57.24220414459186,Sensitivity: disruption observations omitted from estimation
+19132,2033-06-01,Pandemic/backlog months excluded,57.34253839060533,Sensitivity: disruption observations omitted from estimation
+19132,2033-07-01,Pandemic/backlog months excluded,57.4428726366188,Sensitivity: disruption observations omitted from estimation
+19132,2033-08-01,Pandemic/backlog months excluded,57.543206882632276,Sensitivity: disruption observations omitted from estimation
+19132,2033-09-01,Pandemic/backlog months excluded,57.64354112864576,Sensitivity: disruption observations omitted from estimation
+19132,2033-10-01,Pandemic/backlog months excluded,57.74387537465924,Sensitivity: disruption observations omitted from estimation
+19132,2033-11-01,Pandemic/backlog months excluded,57.844209620672714,Sensitivity: disruption observations omitted from estimation
+19132,2033-12-01,Pandemic/backlog months excluded,57.9445438666862,Sensitivity: disruption observations omitted from estimation
+19132,2034-01-01,Pandemic/backlog months excluded,58.04487811269968,Sensitivity: disruption observations omitted from estimation
+19132,2034-02-01,Pandemic/backlog months excluded,58.14521235871317,Sensitivity: disruption observations omitted from estimation
+19132,2034-03-01,Pandemic/backlog months excluded,58.24554660472664,Sensitivity: disruption observations omitted from estimation
+19132,2034-04-01,Pandemic/backlog months excluded,58.34588085074013,Sensitivity: disruption observations omitted from estimation
+19132,2034-05-01,Pandemic/backlog months excluded,58.44621509675361,Sensitivity: disruption observations omitted from estimation
+19132,2034-06-01,Pandemic/backlog months excluded,58.546549342767094,Sensitivity: disruption observations omitted from estimation
+19132,2034-07-01,Pandemic/backlog months excluded,58.64688358878058,Sensitivity: disruption observations omitted from estimation
+19132,2034-08-01,Pandemic/backlog months excluded,58.74721783479406,Sensitivity: disruption observations omitted from estimation
+19132,2034-09-01,Pandemic/backlog months excluded,58.847552080807546,Sensitivity: disruption observations omitted from estimation
+19132,2034-10-01,Pandemic/backlog months excluded,58.94788632682102,Sensitivity: disruption observations omitted from estimation
+19132,2034-11-01,Pandemic/backlog months excluded,59.04822057283451,Sensitivity: disruption observations omitted from estimation
+19132,2034-12-01,Pandemic/backlog months excluded,59.14855481884799,Sensitivity: disruption observations omitted from estimation
+19132,2035-01-01,Pandemic/backlog months excluded,59.24888906486147,Sensitivity: disruption observations omitted from estimation
+19132,2035-02-01,Pandemic/backlog months excluded,59.34922331087496,Sensitivity: disruption observations omitted from estimation
+19132,2035-03-01,Pandemic/backlog months excluded,59.449557556888436,Sensitivity: disruption observations omitted from estimation
+19132,2035-04-01,Pandemic/backlog months excluded,59.549891802901925,Sensitivity: disruption observations omitted from estimation
+19132,2035-05-01,Pandemic/backlog months excluded,59.65022604891541,Sensitivity: disruption observations omitted from estimation
+19132,2035-06-01,Pandemic/backlog months excluded,59.75056029492889,Sensitivity: disruption observations omitted from estimation
+19132,2035-07-01,Pandemic/backlog months excluded,59.85089454094237,Sensitivity: disruption observations omitted from estimation
+19132,2035-08-01,Pandemic/backlog months excluded,59.95122878695585,Sensitivity: disruption observations omitted from estimation
+19132,2035-09-01,Pandemic/backlog months excluded,60.05156303296934,Sensitivity: disruption observations omitted from estimation
+19132,2035-10-01,Pandemic/backlog months excluded,60.151897278982815,Sensitivity: disruption observations omitted from estimation
+19132,2035-11-01,Pandemic/backlog months excluded,60.252231524996304,Sensitivity: disruption observations omitted from estimation
+19132,2035-12-01,Pandemic/backlog months excluded,60.352565771009786,Sensitivity: disruption observations omitted from estimation
+19143,2026-01-01,Pandemic/backlog months excluded,80.49332617867813,Sensitivity: disruption observations omitted from estimation
+19143,2026-02-01,Pandemic/backlog months excluded,75.13815240389498,Sensitivity: disruption observations omitted from estimation
+19143,2026-03-01,Pandemic/backlog months excluded,78.28730794048238,Sensitivity: disruption observations omitted from estimation
+19143,2026-04-01,Pandemic/backlog months excluded,76.10344389848738,Sensitivity: disruption observations omitted from estimation
+19143,2026-05-01,Pandemic/backlog months excluded,76.11948351833553,Sensitivity: disruption observations omitted from estimation
+19143,2026-06-01,Pandemic/backlog months excluded,89.8495464255801,Sensitivity: disruption observations omitted from estimation
+19143,2026-07-01,Pandemic/backlog months excluded,83.96239764403461,Sensitivity: disruption observations omitted from estimation
+19143,2026-08-01,Pandemic/backlog months excluded,77.37814581759741,Sensitivity: disruption observations omitted from estimation
+19143,2026-09-01,Pandemic/backlog months excluded,78.15594905807126,Sensitivity: disruption observations omitted from estimation
+19143,2026-10-01,Pandemic/backlog months excluded,83.14033727540053,Sensitivity: disruption observations omitted from estimation
+19143,2026-11-01,Pandemic/backlog months excluded,67.09379544861635,Sensitivity: disruption observations omitted from estimation
+19143,2026-12-01,Pandemic/backlog months excluded,85.74851662855811,Sensitivity: disruption observations omitted from estimation
+19143,2027-01-01,Pandemic/backlog months excluded,80.74098259985104,Sensitivity: disruption observations omitted from estimation
+19143,2027-02-01,Pandemic/backlog months excluded,78.94121247830641,Sensitivity: disruption observations omitted from estimation
+19143,2027-03-01,Pandemic/backlog months excluded,80.12235920243312,Sensitivity: disruption observations omitted from estimation
+19143,2027-04-01,Pandemic/backlog months excluded,79.43418989608278,Sensitivity: disruption observations omitted from estimation
+19143,2027-05-01,Pandemic/backlog months excluded,79.51712529796063,Sensitivity: disruption observations omitted from estimation
+19143,2027-06-01,Pandemic/backlog months excluded,84.40706507705652,Sensitivity: disruption observations omitted from estimation
+19143,2027-07-01,Pandemic/backlog months excluded,82.42083003247654,Sensitivity: disruption observations omitted from estimation
+19143,2027-08-01,Pandemic/backlog months excluded,80.19024821596393,Sensitivity: disruption observations omitted from estimation
+19143,2027-09-01,Pandemic/backlog months excluded,80.54019510052437,Sensitivity: disruption observations omitted from estimation
+19143,2027-10-01,Pandemic/backlog months excluded,82.3646233854123,Sensitivity: disruption observations omitted from estimation
+19143,2027-11-01,Pandemic/backlog months excluded,76.8173438966037,Sensitivity: disruption observations omitted from estimation
+19143,2027-12-01,Pandemic/backlog months excluded,83.43346230466649,Sensitivity: disruption observations omitted from estimation
+19143,2028-01-01,Pandemic/backlog months excluded,81.75554757672286,Sensitivity: disruption observations omitted from estimation
+19143,2028-02-01,Pandemic/backlog months excluded,81.20201004376727,Sensitivity: disruption observations omitted from estimation
+19143,2028-03-01,Pandemic/backlog months excluded,81.69333585438221,Sensitivity: disruption observations omitted from estimation
+19143,2028-04-01,Pandemic/backlog months excluded,81.52943379420704,Sensitivity: disruption observations omitted from estimation
+19143,2028-05-01,Pandemic/backlog months excluded,81.63581738284216,Sensitivity: disruption observations omitted from estimation
+19143,2028-06-01,Pandemic/backlog months excluded,83.42713984302864,Sensitivity: disruption observations omitted from estimation
+19143,2028-07-01,Pandemic/backlog months excluded,82.80824310247888,Sensitivity: disruption observations omitted from estimation
+19143,2028-08-01,Pandemic/backlog months excluded,82.1036985567974,Sensitivity: disruption observations omitted from estimation
+19143,2028-09-01,Pandemic/backlog months excluded,82.3036743269697,Sensitivity: disruption observations omitted from estimation
+19143,2028-10-01,Pandemic/backlog months excluded,83.02048154388785,Sensitivity: disruption observations omitted from estimation
+19143,2028-11-01,Pandemic/backlog months excluded,81.15337661866505,Sensitivity: disruption observations omitted from estimation
+19143,2028-12-01,Pandemic/backlog months excluded,83.54975479400167,Sensitivity: disruption observations omitted from estimation
+19143,2029-01-01,Pandemic/backlog months excluded,83.03892970174326,Sensitivity: disruption observations omitted from estimation
+19143,2029-02-01,Pandemic/backlog months excluded,82.92221842621025,Sensitivity: disruption observations omitted from estimation
+19143,2029-03-01,Pandemic/backlog months excluded,83.17174997570666,Sensitivity: disruption observations omitted from estimation
+19143,2029-04-01,Pandemic/backlog months excluded,83.1916127288836,Sensitivity: disruption observations omitted from estimation
+19143,2029-05-01,Pandemic/backlog months excluded,83.30621531592908,Sensitivity: disruption observations omitted from estimation
+19143,2029-06-01,Pandemic/backlog months excluded,84.01141836390188,Sensitivity: disruption observations omitted from estimation
+19143,2029-07-01,Pandemic/backlog months excluded,83.8717975461993,Sensitivity: disruption observations omitted from estimation
+19143,2029-08-01,Pandemic/backlog months excluded,83.70215567904367,Sensitivity: disruption observations omitted from estimation
+19143,2029-09-01,Pandemic/backlog months excluded,83.84956395802749,Sensitivity: disruption observations omitted from estimation
+19143,2029-10-01,Pandemic/backlog months excluded,84.17813067297807,Sensitivity: disruption observations omitted from estimation
+19143,2029-11-01,Pandemic/backlog months excluded,83.6009911169711,Sensitivity: disruption observations omitted from estimation
+19143,2029-12-01,Pandemic/backlog months excluded,84.51827674567599,Sensitivity: disruption observations omitted from estimation
+19143,2030-01-01,Pandemic/backlog months excluded,84.41653692554057,Sensitivity: disruption observations omitted from estimation
+19143,2030-02-01,Pandemic/backlog months excluded,84.4529408717731,Sensitivity: disruption observations omitted from estimation
+19143,2030-03-01,Pandemic/backlog months excluded,84.61771931569558,Sensitivity: disruption observations omitted from estimation
+19143,2030-04-01,Pandemic/backlog months excluded,84.70199484093236,Sensitivity: disruption observations omitted from estimation
+19143,2030-05-01,Pandemic/backlog months excluded,84.81947833026543,Sensitivity: disruption observations omitted from estimation
+19143,2030-06-01,Pandemic/backlog months excluded,85.14397758161628,Sensitivity: disruption observations omitted from estimation
+19143,2030-07-01,Pandemic/backlog months excluded,85.1723513337608,Sensitivity: disruption observations omitted from estimation
+19143,2030-08-01,Pandemic/backlog months excluded,85.19020218448506,Sensitivity: disruption observations omitted from estimation
+19143,2030-09-01,Pandemic/backlog months excluded,85.31918464099549,Sensitivity: disruption observations omitted from estimation
+19143,2030-10-01,Pandemic/backlog months excluded,85.51166628883524,Sensitivity: disruption observations omitted from estimation
+19143,2030-11-01,Pandemic/backlog months excluded,85.38668209258783,Sensitivity: disruption observations omitted from estimation
+19143,2030-12-01,Pandemic/backlog months excluded,85.7855199873458,Sensitivity: disruption observations omitted from estimation
+19143,2031-01-01,Pandemic/backlog months excluded,85.82717168980726,Sensitivity: disruption observations omitted from estimation
+19143,2031-02-01,Pandemic/backlog months excluded,85.91724519169935,Sensitivity: disruption observations omitted from estimation
+19143,2031-03-01,Pandemic/backlog months excluded,86.05231619396797,Sensitivity: disruption observations omitted from estimation
+19143,2031-04-01,Pandemic/backlog months excluded,86.15916951921307,Sensitivity: disruption observations omitted from estimation
+19143,2031-05-01,Pandemic/backlog months excluded,86.27766281504277,Sensitivity: disruption observations omitted from estimation
+19143,2031-06-01,Pandemic/backlog months excluded,86.46871874595158,Sensitivity: disruption observations omitted from estimation
+19143,2031-07-01,Pandemic/backlog months excluded,86.55597752476393,Sensitivity: disruption observations omitted from estimation
+19143,2031-08-01,Pandemic/backlog months excluded,86.63954784310214,Sensitivity: disruption observations omitted from estimation
+19143,2031-09-01,Pandemic/backlog months excluded,86.7620717274771,Sensitivity: disruption observations omitted from estimation
+19143,2031-10-01,Pandemic/backlog months excluded,86.90685318588092,Sensitivity: disruption observations omitted from estimation
+19143,2031-11-01,Pandemic/backlog months excluded,86.94035732911783,Sensitivity: disruption observations omitted from estimation
+19143,2031-12-01,Pandemic/backlog months excluded,87.15747025105593,Sensitivity: disruption observations omitted from estimation
+19143,2032-01-01,Pandemic/backlog months excluded,87.24938318303062,Sensitivity: disruption observations omitted from estimation
+19143,2032-02-01,Pandemic/backlog months excluded,87.35826880021395,Sensitivity: disruption observations omitted from estimation
+19143,2032-03-01,Pandemic/backlog months excluded,87.48292682606544,Sensitivity: disruption observations omitted from estimation
+19143,2032-04-01,Pandemic/backlog months excluded,87.59769406398522,Sensitivity: disruption observations omitted from estimation
+19143,2032-05-01,Pandemic/backlog months excluded,87.7165413146037,Sensitivity: disruption observations omitted from estimation
+19143,2032-06-01,Pandemic/backlog months excluded,87.86082303435776,Sensitivity: disruption observations omitted from estimation
+19143,2032-07-01,Pandemic/backlog months excluded,87.96872204201102,Sensitivity: disruption observations omitted from estimation
+19143,2032-08-01,Pandemic/backlog months excluded,88.07532817993891,Sensitivity: disruption observations omitted from estimation
+19143,2032-09-01,Pandemic/backlog months excluded,88.19558822213862,Sensitivity: disruption observations omitted from estimation
+19143,2032-10-01,Pandemic/backlog months excluded,88.32364993222228,Sensitivity: disruption observations omitted from estimation
+19143,2032-11-01,Pandemic/backlog months excluded,88.41270700258994,Sensitivity: disruption observations omitted from estimation
+19143,2032-12-01,Pandemic/backlog months excluded,88.56612215215092,Sensitivity: disruption observations omitted from estimation
+19143,2033-01-01,Pandemic/backlog months excluded,88.67565252165909,Sensitivity: disruption observations omitted from estimation
+19143,2033-02-01,Pandemic/backlog months excluded,88.79113211334774,Sensitivity: disruption observations omitted from estimation
+19143,2033-03-01,Pandemic/backlog months excluded,88.91214020935583,Sensitivity: disruption observations omitted from estimation
+19143,2033-04-01,Pandemic/backlog months excluded,89.02968141169197,Sensitivity: disruption observations omitted from estimation
+19143,2033-05-01,Pandemic/backlog months excluded,89.1486527296371,Sensitivity: disruption observations omitted from estimation
+19143,2033-06-01,Pandemic/backlog months excluded,89.27653927260823,Sensitivity: disruption observations omitted from estimation
+19143,2033-07-01,Pandemic/backlog months excluded,89.39167304044949,Sensitivity: disruption observations omitted from estimation
+19143,2033-08-01,Pandemic/backlog months excluded,89.50635363490346,Sensitivity: disruption observations omitted from estimation
+19143,2033-09-01,Pandemic/backlog months excluded,89.62582016093786,Sensitivity: disruption observations omitted from estimation
+19143,2033-10-01,Pandemic/backlog months excluded,89.74802130763183,Sensitivity: disruption observations omitted from estimation
+19143,2033-11-01,Pandemic/backlog months excluded,89.85655064783862,Sensitivity: disruption observations omitted from estimation
+19143,2033-12-01,Pandemic/backlog months excluded,89.98763861725014,Sensitivity: disruption observations omitted from estimation
+19143,2034-01-01,Pandemic/backlog months excluded,90.10334420587355,Sensitivity: disruption observations omitted from estimation
+19143,2034-02-01,Pandemic/backlog months excluded,90.2211351006296,Sensitivity: disruption observations omitted from estimation
+19143,2034-03-01,Pandemic/backlog months excluded,90.34086383257038,Sensitivity: disruption observations omitted from estimation
+19143,2034-04-01,Pandemic/backlog months excluded,90.45937735781422,Sensitivity: disruption observations omitted from estimation
+19143,2034-05-01,Pandemic/backlog months excluded,90.57839216352119,Sensitivity: disruption observations omitted from estimation
+19143,2034-06-01,Pandemic/backlog months excluded,90.70053191108718,Sensitivity: disruption observations omitted from estimation
+19143,2034-07-01,Pandemic/backlog months excluded,90.81820158855331,Sensitivity: disruption observations omitted from estimation
+19143,2034-08-01,Pandemic/backlog months excluded,90.93571242084357,Sensitivity: disruption observations omitted from estimation
+19143,2034-09-01,Pandemic/backlog months excluded,91.05490080562258,Sensitivity: disruption observations omitted from estimation
+19143,2034-10-01,Pandemic/backlog months excluded,91.17504772263635,Sensitivity: disruption observations omitted from estimation
+19143,2034-11-01,Pandemic/backlog months excluded,91.29040243303102,Sensitivity: disruption observations omitted from estimation
+19143,2034-12-01,Pandemic/backlog months excluded,91.41366433639936,Sensitivity: disruption observations omitted from estimation
+19143,2035-01-01,Pandemic/backlog months excluded,91.53153444702258,Sensitivity: disruption observations omitted from estimation
+19143,2035-02-01,Pandemic/backlog months excluded,91.65013549381442,Sensitivity: disruption observations omitted from estimation
+19143,2035-03-01,Pandemic/backlog months excluded,91.76941578633665,Sensitivity: disruption observations omitted from estimation
+19143,2035-04-01,Pandemic/backlog months excluded,91.88827012771759,Sensitivity: disruption observations omitted from estimation
+19143,2035-05-01,Pandemic/backlog months excluded,92.00730017664353,Sensitivity: disruption observations omitted from estimation
+19143,2035-06-01,Pandemic/backlog months excluded,92.12742557219211,Sensitivity: disruption observations omitted from estimation
+19143,2035-07-01,Pandemic/backlog months excluded,92.2459841302097,Sensitivity: disruption observations omitted from estimation
+19143,2035-08-01,Pandemic/backlog months excluded,92.3644870102228,Sensitivity: disruption observations omitted from estimation
+19143,2035-09-01,Pandemic/backlog months excluded,92.48357790164081,Sensitivity: disruption observations omitted from estimation
+19143,2035-10-01,Pandemic/backlog months excluded,92.60300477532456,Sensitivity: disruption observations omitted from estimation
+19143,2035-11-01,Pandemic/backlog months excluded,92.72075189700905,Sensitivity: disruption observations omitted from estimation
+19143,2035-12-01,Pandemic/backlog months excluded,92.84127062773749,Sensitivity: disruption observations omitted from estimation
+19132,2026-01-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-02-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-03-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-04-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-05-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-06-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-07-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-08-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-09-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-10-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-11-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2026-12-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-01-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-02-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-03-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-04-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-05-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-06-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-07-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-08-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-09-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-10-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-11-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2027-12-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-01-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-02-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-03-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-04-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-05-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-06-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-07-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-08-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-09-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-10-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-11-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2028-12-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-01-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-02-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-03-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-04-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-05-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-06-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-07-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-08-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-09-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-10-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-11-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2029-12-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-01-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-02-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-03-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-04-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-05-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-06-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-07-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-08-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-09-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-10-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-11-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2030-12-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-01-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-02-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-03-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-04-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-05-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-06-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-07-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-08-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-09-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-10-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-11-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2031-12-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-01-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-02-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-03-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-04-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-05-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-06-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-07-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-08-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-09-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-10-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-11-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2032-12-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-01-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-02-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-03-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-04-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-05-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-06-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-07-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-08-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-09-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-10-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-11-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2033-12-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-01-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-02-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-03-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-04-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-05-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-06-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-07-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-08-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-09-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-10-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-11-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2034-12-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-01-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-02-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-03-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-04-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-05-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-06-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-07-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-08-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-09-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-10-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-11-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19132,2035-12-01,Post-backlog history only,48.29371805743932,Exploratory sensitivity: short post-backlog history only
+19143,2026-01-01,Post-backlog history only,81.10612322972655,Exploratory sensitivity: short post-backlog history only
+19143,2026-02-01,Post-backlog history only,77.55325605117093,Exploratory sensitivity: short post-backlog history only
+19143,2026-03-01,Post-backlog history only,76.6447360320885,Exploratory sensitivity: short post-backlog history only
+19143,2026-04-01,Post-backlog history only,76.41241419634537,Exploratory sensitivity: short post-backlog history only
+19143,2026-05-01,Post-backlog history only,76.35300611041507,Exploratory sensitivity: short post-backlog history only
+19143,2026-06-01,Post-backlog history only,76.33781459532302,Exploratory sensitivity: short post-backlog history only
+19143,2026-07-01,Post-backlog history only,76.33392990307654,Exploratory sensitivity: short post-backlog history only
+19143,2026-08-01,Post-backlog history only,76.33293653054204,Exploratory sensitivity: short post-backlog history only
+19143,2026-09-01,Post-backlog history only,76.33268251067902,Exploratory sensitivity: short post-backlog history only
+19143,2026-10-01,Post-backlog history only,76.33261755409067,Exploratory sensitivity: short post-backlog history only
+19143,2026-11-01,Post-backlog history only,76.33260094374249,Exploratory sensitivity: short post-backlog history only
+19143,2026-12-01,Post-backlog history only,76.33259669623389,Exploratory sensitivity: short post-backlog history only
+19143,2027-01-01,Post-backlog history only,76.33259561008393,Exploratory sensitivity: short post-backlog history only
+19143,2027-02-01,Post-backlog history only,76.33259533233952,Exploratory sensitivity: short post-backlog history only
+19143,2027-03-01,Post-backlog history only,76.33259526131621,Exploratory sensitivity: short post-backlog history only
+19143,2027-04-01,Post-backlog history only,76.33259524315453,Exploratory sensitivity: short post-backlog history only
+19143,2027-05-01,Post-backlog history only,76.33259523851031,Exploratory sensitivity: short post-backlog history only
+19143,2027-06-01,Post-backlog history only,76.33259523732272,Exploratory sensitivity: short post-backlog history only
+19143,2027-07-01,Post-backlog history only,76.33259523701904,Exploratory sensitivity: short post-backlog history only
+19143,2027-08-01,Post-backlog history only,76.33259523694137,Exploratory sensitivity: short post-backlog history only
+19143,2027-09-01,Post-backlog history only,76.33259523692152,Exploratory sensitivity: short post-backlog history only
+19143,2027-10-01,Post-backlog history only,76.33259523691645,Exploratory sensitivity: short post-backlog history only
+19143,2027-11-01,Post-backlog history only,76.33259523691514,Exploratory sensitivity: short post-backlog history only
+19143,2027-12-01,Post-backlog history only,76.33259523691481,Exploratory sensitivity: short post-backlog history only
+19143,2028-01-01,Post-backlog history only,76.33259523691473,Exploratory sensitivity: short post-backlog history only
+19143,2028-02-01,Post-backlog history only,76.33259523691471,Exploratory sensitivity: short post-backlog history only
+19143,2028-03-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2028-04-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2028-05-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2028-06-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2028-07-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2028-08-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2028-09-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2028-10-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2028-11-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2028-12-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-01-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-02-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-03-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-04-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-05-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-06-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-07-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-08-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-09-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-10-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-11-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2029-12-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-01-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-02-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-03-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-04-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-05-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-06-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-07-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-08-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-09-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-10-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-11-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2030-12-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-01-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-02-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-03-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-04-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-05-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-06-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-07-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-08-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-09-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-10-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-11-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2031-12-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-01-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-02-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-03-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-04-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-05-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-06-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-07-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-08-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-09-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-10-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-11-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2032-12-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-01-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-02-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-03-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-04-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-05-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-06-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-07-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-08-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-09-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-10-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-11-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2033-12-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-01-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-02-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-03-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-04-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-05-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-06-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-07-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-08-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-09-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-10-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-11-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2034-12-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-01-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-02-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-03-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-04-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-05-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-06-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-07-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-08-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-09-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-10-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-11-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only
+19143,2035-12-01,Post-backlog history only,76.3325952369147,Exploratory sensitivity: short post-backlog history only

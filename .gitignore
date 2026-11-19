@@ -1,0 +1,46 @@
+# R and RStudio session state
+.Rproj.user/
+.Rhistory
+.RData
+.RDataTmp*
+*.RData
+*.RDataTmp*
+*.Rhistory
+.Ruserdata
+renv/library/
+renv/staging/
+
+# Local secrets and credentials
+.Renviron
+.env
+.env.*
+*.key
+*.pem
+
+# Operating-system and incidental plot files
+.DS_Store
+Rplots.pdf
+
+# Rendered copies that can be regenerated from Markdown
+docs/*.html
+!docs/WEEK_04_05_06_ANALYSIS_STEPS.html
+*.knit.md
+*.utf8.md
+.quarto/
+_site/
+
+# Large raw sources and reproducible caches
+data/raw/*
+!data/raw/README.md
+external_data/raw/*
+!external_data/raw/README.md
+cache/*
+!cache/README.md
+
+# Large generated analytical tables; dictionaries and metadata remain tracked
+team_data/*.csv.gz
+tableau_data/fact_documents.csv.gz
+
+# Local Solver result handoff, if created
+model_inputs/ward_solver_output_excel.csv
+

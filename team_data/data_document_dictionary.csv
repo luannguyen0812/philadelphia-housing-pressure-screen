@@ -1,0 +1,48 @@
+column,grain,purpose,aggregation_rule,important_caveat
+document_id,document,Unique legal filing identifier,Key; never sum,Defines the transaction-counting grain
+document_type,document,Detailed source filing type,Category,Set to CONFLICTING when parcel rows disagree
+activity_type,document,"Analysis category for deed, mortgage, lifecycle, other, or unknown",Category,Use sale_deed and new_mortgage for the main research question
+transaction_type,document,"Broad Sale, Loan, Other, or Conflicting label",Derived from activity_type,Loan combines new mortgages with mortgage lifecycle filings; use activity_type when the distinction matters
+deed_variant,document,Identifies a sale document whose detailed type is not exact DEED,Any deed-variant parcel when the activity category is consistent,Variant deeds remain in sale counts but can be isolated in sensitivity checks
+record_date,document,Canonical filing date used by the project,Earliest recording/display date when source rows disagree,Drives the January 2000 through July 2026 analysis window
+document_date,document,Earliest date the instrument was executed,Earliest nonmissing valid document date,Dates outside 1800-2025 are treated as missing; not the default revenue-recognition date
+receipt_date,document,Earliest date the filing was received,Earliest nonmissing receipt date,Compare with record_date before using for revenue timing
+recording_delay_from_document_days,document,Days from document execution to recording,record_date minus document_date,Can be negative when source dates are inconsistent
+recording_delay_from_receipt_days,document,Days from receipt to recording,record_date minus receipt_date,Can be negative when source dates are inconsistent
+year,document,Calendar year of record_date,Derived,Not a fiscal-year field
+month,document,Calendar month number of record_date,Derived,Use yr_mo for time-series grouping
+yr_mo,document,First day of the record month,Derived,Monthly analysis key
+quarter,document,First day of the record quarter,Derived,Calendar quarter
+primary_ward,document,Single ward used for additive ward totals,Most parcel rows; lowest ward breaks a tie,A practical allocation rule for multi-ward documents
+primary_zip5,document,Single five-digit ZIP used for additive ZIP totals,Most parcel rows; lowest ZIP breaks a tie,A practical allocation rule for multi-ZIP documents
+n_parcel_rows,document,Number of source parcel rows in the document,Count,Values above one identify multi-parcel filings
+n_wards,document,Number of wards touched by the document,Distinct count,Zero means ward is unavailable
+n_zips,document,Number of ZIP codes touched by the document,Distinct count,Zero means ZIP is unavailable
+transaction_count,document,Safe additive transaction counter,Always 1,Sum this field for transaction volume
+total_consideration,document,Document consideration used for analysis,Sum complete adjusted parcel allocations; otherwise use one consistent reported document value,Mortgage consideration is too incomplete for loan-value analysis
+adjusted_consideration_coverage_pct,document,Share of parcel rows with adjusted consideration,Nonmissing adjusted rows divided by parcel rows,Values below 1 trigger the reported-value fallback when available
+consideration_aggregation_method,document,Rule used to create total_consideration,Method label,Distinguishes adjusted sums from reported fallbacks
+consideration_reconciliation_difference,document,Adjusted parcel sum minus reported document consideration,Calculated when both are fully available,Investigate material nonzero differences
+local_tax_amount,document,Recorded Philadelphia transfer-tax amount,Sum complete adjusted parcel allocations; otherwise use one consistent reported document value,Recorded filing amount is not automatically cash revenue received
+adjusted_local_tax_coverage_pct,document,Share of parcel rows with adjusted local tax,Nonmissing adjusted rows divided by parcel rows,Values below 1 trigger the reported-value fallback when available
+local_tax_aggregation_method,document,Rule used to create local_tax_amount,Method label,Distinguishes adjusted sums from reported fallbacks
+local_tax_reconciliation_difference,document,Adjusted parcel tax sum minus reported local tax,Calculated when both are fully available,Investigate material nonzero differences
+state_tax_amount,document,Recorded Commonwealth transfer-tax amount,Sum complete adjusted parcel allocations; otherwise use one consistent reported document value,"Included as a reconciliation field, not City revenue"
+adjusted_state_tax_coverage_pct,document,Share of parcel rows with adjusted state tax,Nonmissing adjusted rows divided by parcel rows,Values below 1 trigger the reported-value fallback when available
+state_tax_aggregation_method,document,Rule used to create state_tax_amount,Method label,Distinguishes adjusted sums from reported fallbacks
+state_tax_reconciliation_difference,document,Adjusted parcel tax sum minus reported state tax,Calculated when both are fully available,Investigate material nonzero differences
+assessed_value_total,document,Sum of available assessed values across parcel rows,Sum across nonmissing parcel rows,Do not treat missing parcels as zero-valued property
+assessed_value_median,document,Median available parcel assessed value,Median across nonmissing parcel rows,Primarily descriptive for multi-parcel documents
+assessed_parcel_rows,document,Parcel rows with an assessed value,Nonmissing count,Compare with n_parcel_rows
+assessment_coverage_pct,document,Share of parcel rows with assessed values,assessed_parcel_rows divided by n_parcel_rows,Low coverage weakens document-level assessment comparisons
+nominal_transfer,document,Deed with reported consideration at or below $100,Derived Boolean,Missing consideration is not classified as nominal
+unknown_consideration,document,Deed with missing consideration,Derived Boolean,Keep separate from nominal transfers
+high_value_sale_outlier,document,Non-nominal sale above the 99.9th percentile of eligible document consideration,Derived Boolean,Retain the transaction but exclude it from typical-price summaries
+activity_type_conflict,document,Parcel rows disagree on activity category,Any conflict,Conflicted documents should be reviewed before category modeling
+document_type_conflict,document,Parcel rows disagree on detailed document type,Any conflict,Detailed type is replaced by CONFLICTING
+record_date_conflict,document,Parcel rows disagree on canonical record date,Any conflict,Earliest date is retained
+document_date_conflict,document,Parcel rows disagree on document date,Any conflict,Earliest date is retained
+receipt_date_conflict,document,Parcel rows disagree on receipt date,Any conflict,Earliest date is retained
+total_consideration_conflict,document,Reported document consideration differs across parcel rows,Any conflict,Complete adjusted parcel allocations can still supply the document total
+local_tax_conflict,document,Reported local tax differs across parcel rows,Any conflict,Complete adjusted parcel allocations can still supply the document total
+state_tax_conflict,document,Reported state tax differs across parcel rows,Any conflict,Complete adjusted parcel allocations can still supply the document total

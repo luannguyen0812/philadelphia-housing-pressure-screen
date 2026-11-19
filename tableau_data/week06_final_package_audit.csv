@@ -1,0 +1,5 @@
+fact_table,rows,distinct_geography_keys,orphan_geography_keys,relationship_valid
+fact_zip_profile,38,38,0,TRUE
+fact_annual_signals,456,38,0,TRUE
+fact_monthly_forecast,624,2,0,TRUE
+fact_policy_response,43,37,0,TRUE

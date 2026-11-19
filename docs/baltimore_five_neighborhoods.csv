@@ -1,0 +1,13 @@
+source,region,measure,value_2012,value_2023,value_2025_10,chg_2012_2023_pct,chg_2012_2025_pct,chg_2015_2025_pct
+Zillow ZHVI,Baltimore city,Typical home value,88798,189036,192354,112.9,116.6,68.8
+Zillow ZHVI,Patterson Park,Typical home value,128452,254586,264973,98.2,106.3,37.9
+Zillow ZHVI,Washington Village-Pigtown,Typical home value,80405,178377,176684,121.8,119.7,70.2
+Zillow ZHVI,Highlandtown,Typical home value,125427,267287,272360,113.1,117.1,39.8
+Zillow ZHVI,Remington,Typical home value,69604,229652,237748,229.9,241.6,66.9
+Zillow ZHVI,Union Square,Typical home value,,,,,,89.9
+BNIA,Benchmark: median of 55 CSAs,Median price of homes sold,92000,210000,,128.3,,
+BNIA,Hampden/Remington CSA,Median price of homes sold,144600,303500,,109.9,,
+BNIA,Poppleton/Terraces/Hollins Market CSA,Median price of homes sold,69000,185000,,168.1,,
+BNIA,Pigtown/Carroll Park CSA,Median price of homes sold,92000,185000,,101.1,,
+BNIA,Highlandtown CSA,Median price of homes sold,220000,365000,,65.9,,
+BNIA,Patterson Park North & East CSA,Median price of homes sold,162200,260000,,60.3,,

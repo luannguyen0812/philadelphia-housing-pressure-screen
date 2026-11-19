@@ -1,0 +1,1000 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Revised Weeks 5-6 implementation plan for citywide benchmarking, property-unit validation, forecasting, and policy-linked Philadelphia housing analysis.">
+  <title>Weeks 4-6 Analysis and Implementation Steps</title>
+  <style>
+:root {
+  --navy: #17365d;
+  --blue: #2f75b5;
+  --blue-2: #eaf3fb;
+  --ink: #1f2933;
+  --muted: #536775;
+  --line: #d8e2ea;
+  --paper: #ffffff;
+  --canvas: #edf3f7;
+  --week: #fff1c7;
+  --week-border: #d99700;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--canvas);
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+.hero {
+  color: white;
+  padding: 56px max(28px, calc((100vw - 1180px) / 2));
+  background: linear-gradient(125deg, #102a47 0%, #17365d 55%, #2f75b5 100%);
+  border-bottom: 5px solid #8fc8eb;
+}
+.eyebrow { text-transform: uppercase; letter-spacing: .14em; font-weight: 800; font-size: .76rem; opacity: .78; }
+.hero h1 { max-width: 900px; margin: 10px 0 8px; font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1.08; }
+.hero p { max-width: 760px; margin: 0; color: #deedf8; font-size: 1.08rem; }
+.layout {
+  display: grid;
+  grid-template-columns: 245px minmax(0, 860px);
+  gap: 34px;
+  max-width: 1180px;
+  margin: 32px auto 80px;
+  padding: 0 24px;
+  align-items: start;
+}
+.toc {
+  position: sticky;
+  top: 18px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 8px 26px rgba(23,54,93,.07);
+}
+.toc strong { color: var(--navy); display: block; margin-bottom: 8px; }
+.toc a { display: block; padding: 5px 0; color: var(--muted); text-decoration: none; font-size: .86rem; line-height: 1.25; }
+.toc a:hover { color: var(--blue); }
+main {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: clamp(25px, 5vw, 56px);
+  box-shadow: 0 12px 36px rgba(23,54,93,.08);
+}
+h2 { color: var(--navy); margin: 2.7rem 0 1rem; padding-top: .5rem; border-top: 1px solid var(--line); font-size: 1.75rem; line-height: 1.25; }
+h2:first-of-type { margin-top: 1.4rem; }
+h3 { color: var(--blue); margin: 2rem 0 .7rem; font-size: 1.2rem; line-height: 1.35; }
+p { margin: .7rem 0 1rem; }
+p.meta { padding: 16px 18px; background: var(--blue-2); border-left: 4px solid var(--blue); border-radius: 7px; }
+.week-tag {
+  display: inline-block;
+  vertical-align: .12em;
+  padding: .15rem .48rem;
+  margin-left: .25rem;
+  color: #704c00;
+  background: var(--week);
+  border: 1px solid var(--week-border);
+  border-radius: 999px;
+  font-size: .66em;
+  font-weight: 800;
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+blockquote {
+  margin: 1.2rem 0;
+  padding: 1.1rem 1.25rem;
+  color: var(--navy);
+  background: #f5f9fc;
+  border-left: 4px solid var(--blue);
+  border-radius: 8px;
+  font-size: 1.08rem;
+  font-style: italic;
+}
+pre.diagram {
+  overflow-x: auto;
+  padding: 18px;
+  color: #dbeafe;
+  background: #132a3f;
+  border-radius: 10px;
+  font-size: .82rem;
+  line-height: 1.45;
+}
+code { font-family: "SFMono-Regular", Consolas, monospace; }
+ul, ol { padding-left: 1.45rem; }
+li { margin: .35rem 0; padding-left: .18rem; }
+li::marker { color: var(--blue); font-weight: 800; }
+.table-wrap { overflow-x: auto; margin: 1rem 0 1.5rem; border: 1px solid var(--line); border-radius: 10px; }
+table { width: 100%; border-collapse: collapse; min-width: 590px; }
+th { color: white; background: var(--navy); text-align: left; font-size: .84rem; }
+th, td { padding: 11px 13px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tbody tr:nth-child(even) { background: #f7fafc; }
+a { color: #1769aa; text-underline-offset: 2px; }
+.footer { margin-top: 42px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .84rem; }
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .toc { position: static; }
+  .toc nav { columns: 2; }
+}
+@media (max-width: 620px) {
+  .hero { padding: 38px 20px; }
+  .layout { margin-top: 18px; padding: 0 12px; }
+  main { padding: 22px 18px; }
+  .toc nav { columns: 1; }
+  h2 { font-size: 1.45rem; }
+}
+@media print {
+  body { background: white; }
+  .hero { padding: 30px 42px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .layout { display: block; margin: 0; max-width: none; padding: 0; }
+  .toc { display: none; }
+  main { border: 0; box-shadow: none; padding: 28px 42px; }
+  h2, h3 { break-after: avoid; }
+  table, pre, blockquote { break-inside: avoid; }
+}
+h4 { color: var(--navy); margin: 1.5rem 0 .6rem; font-size: 1.02rem; line-height: 1.35; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="eyebrow">BSAN 710 | Philadelphia Housing Pressure Study</div>
+    <h1>Weeks 4-6 Analysis and Implementation Steps</h1>
+    <p>Revised after Week 4 feedback: citywide context, property-unit validation, source reconciliation, demographic evidence, and validated forecasting.</p>
+  </header>
+  <div class="layout">
+    <aside class="toc" aria-label="Document navigation">
+      <strong>On this page</strong>
+<nav><a href="#sec:1-final-research-direction-week-4">1. Final research direction</a>
+<a href="#sec:2-role-of-affordability-activity-and-assessment-measures-weeks-4-5">2. Role of affordability, activity, and assessment measures</a>
+<a href="#sec:3-screening-five-zip-codes-and-selecting-two-case-studies-week-4">3. Screening five ZIP codes and selecting two case studies</a>
+<a href="#sec:4-analytical-dimensions-to-build-weeks-4-5">4. Analytical dimensions to build</a>
+<a href="#sec:5-recommended-core-visualizations-weeks-5-6">5. Recommended core visualizations</a>
+<a href="#sec:6-final-tableau-dashboard-week-6">6. Final Tableau dashboard</a>
+<a href="#sec:7-connecting-findings-to-recommendations-week-6">7. Connecting findings to recommendations</a>
+<a href="#sec:8-week-by-week-implementation-plan-weeks-4-6">8. Week-by-week implementation plan</a>
+<a href="#sec:9-required-technical-cautions-weeks-4-6">9. Required technical cautions</a>
+<a href="#sec:10-minimum-viable-scope-and-optional-extensions-week-4-scope-lock">10. Minimum viable scope and optional extensions</a>
+<a href="#sec:11-definition-of-a-successful-final-deliverable-week-6">11. Definition of a successful final deliverable</a>
+<a href="#sec:12-supporting-policy-and-data-references-weeks-4-6">12. Supporting policy and data references</a></nav>
+    </aside>
+    <main>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Project setting</th>
+<th>Decision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Final research theme</td>
+<td>Housing pressure and potential displacement risk across five Philadelphia ZIP/ZCTAs, with 19132 and 19143 as detailed case studies</td>
+</tr>
+<tr>
+<td>Implementation period</td>
+<td>Weeks 4, 5, and 6</td>
+</tr>
+<tr>
+<td>Primary audience</td>
+<td>City housing, planning, preservation, and community outreach stakeholders</td>
+</tr>
+</tbody>
+</table></div>
+<p class="meta"><strong>Scheduling convention:</strong> Bracketed labels show when each component should be
+implemented. A range such as <code>[Weeks 4-5]</code> means construction begins in Week 4
+and validation or refinement continues in Week 5.</p>
+<h3 id="sec:three-week-delivery-map">Three-week delivery map</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Week</th>
+<th>Primary purpose</th>
+<th>Main output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Week 4</strong></td>
+<td>Lock the five-ZIP screen, validate the two detailed case studies, acquire ACS fields, and construct the joined analytical panel</td>
+<td>Validated five-ZIP screen, two-ZIP case-study panel, coverage report, and preliminary metrics</td>
+</tr>
+<tr>
+<td><strong>Week 5</strong></td>
+<td>Put the two case studies in citywide context, validate the market measures, and test whether the selection is robust</td>
+<td>All-ZIP benchmark panel, Philadelphia baselines, property-type/unit sensitivity checks, source reconciliation, and validated forecasting</td>
+</tr>
+<tr>
+<td><strong>Week 6</strong></td>
+<td>Build the dashboard and connect validated evidence and scenarios to differentiated responses</td>
+<td>Final all-ZIP Tableau dashboard, two-ZIP case-study views, evidence-linked recommendations, speaker notes, and reproducible handoff</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="sec:week-5-implementation-status">Week 5 implementation status (October 22, 2026)</h3>
+<p>Week 5 is now an implemented evidence-validation layer, not only a proposal.
+The build contains a 37-ZIP benchmark, an all-ZIP price-growth/transaction test,
+an OPA property-class join with approximately 98% match coverage, official L&amp;I
+permit and permitted-unit signals, Eviction Lab filings, Redfin inventory and
+days on market, Redfin-versus-RTT reconciliation, non-overlapping ACS income
+endpoints, and seasonal-naive/ETS/ARIMA validation with conditional forecasts
+through 2035. The forecast build also compares a common 2024-2025 holdout under
+intervention-adjusted, disruption-excluded, and post-backlog specifications.</p>
+<p class="meta"><strong>Unit-data decision:</strong> OPA's <code>unit</code> field is an address
+designator, not a complete dwelling-unit count. Week 5 therefore reports price
+per transacted property within OPA property classes; it does not present a
+project-wide price-per-dwelling-unit statistic. L&amp;I <code>numberofunits</code>
+is used only for the new-construction permit pipeline.</p>
+<p>The historical ACS expansion for education, tenure, poverty, age, rent, and
+burden remains visible as a data gate. The Census Data API now requires an API
+key for all data queries; missing historical measures are recorded in
+<code>week05_neighborhood_change_availability.csv</code> and are not interpreted
+as no change.</p>
+<h2 id="sec:1-final-research-direction-week-4">1. Final research direction <span class="week-tag">Week 4</span></h2>
+<p>The project will move from broad citywide exploratory analysis to a five-ZIP
+screen and a focused comparison of 19132 and 19143. The five candidates show
+how market growth and resident vulnerability vary across the selection
+quadrants. The two upper-right ZIPs receive the detailed analysis of housing
+pressure, affordability, resident vulnerability, and possible displacement
+exposure.</p>
+<p>The project should describe <strong>housing pressure</strong> and <strong>potential displacement
+risk</strong>. Gentrification is a broader neighborhood-change process involving
+market, socioeconomic, and demographic change. The current evidence does not
+establish that a ZIP has gentrified or that an individual household was
+displaced.</p>
+<p>Week 5 will retain 19132 and 19143 as the detailed case studies while testing
+whether their selection is robust. The test will compare the two ZIPs with all
+qualifying Philadelphia ZIP/ZCTAs and the City as a whole, examine alternative
+property definitions, and add demographic-change evidence. The purpose is to
+contextualize the selected ZIPs, not restart the case-study selection without a
+documented reason.</p>
+<h3 id="sec:final-research-question-week-4">Final research question <span class="week-tag">Week 4</span></h3>
+<blockquote>
+<p>Do 19132 and 19143 continue to show unusual housing pressure and resident
+vulnerability when compared with all qualifying Philadelphia ZIP/ZCTAs and
+the City overall, and which responses best match the validated risks?</p>
+</blockquote>
+<h3 id="sec:analytical-logic-week-4">Analytical logic <span class="week-tag">Week 4</span></h3>
+<pre class="diagram" data-language="text"><code class="language-text">Resident vulnerability and baseline housing conditions
+    -&gt; Housing-market change relative to Philadelphia
+    -&gt; Affordability and transaction pressure
+    -&gt; Demographic or housing-instability evidence
+    -&gt; Potential displacement risk
+    -&gt; Targeted City response
+</code></pre>
+<p>The final result should not be a collection of unrelated graphs. Every measure
+must help explain either the pressure occurring in a ZIP code, the residents
+who may be exposed, or the response that the City could consider.</p>
+<h2 id="sec:2-role-of-affordability-activity-and-assessment-measures-weeks-4-5">2. Role of affordability, activity, and assessment measures <span class="week-tag">Weeks 4-5</span></h2>
+<h3 id="sec:2-1-price-to-income-ratio-primary-affordability-indicator-weeks-4-5">2.1 Price-to-income ratio: primary affordability indicator <span class="week-tag">Weeks 4-5</span></h3>
+<pre class="diagram" data-language="text"><code class="language-text">Price-to-income ratio = median residential sale price
+                        / median household income
+</code></pre>
+<p>This ratio evaluates whether local home prices are becoming increasingly
+disconnected from the incomes of households living in the ZIP code. A ratio of
+4.0 means that the median sale price is approximately four times the median
+annual household income.</p>
+<p>It helps answer:</p>
+<ul>
+<li>Are prices increasing faster than local incomes?</li>
+<li>Which detailed ZIP code has experienced greater affordability pressure?</li>
+<li>Is that pressure persistent or driven by one unusual year?</li>
+<li>How does each ZIP compare with Philadelphia overall?</li>
+</ul>
+<p>This is a descriptive screening measure, not a complete homebuyer
+affordability calculation. It does not account for mortgage interest rates,
+down payments, property taxes, insurance, credit qualification, or the actual
+income of the households purchasing the homes.</p>
+<h3 id="sec:2-2-sale-to-assessment-ratio-appendix-diagnostic-weeks-4-5">2.2 Sale-to-assessment ratio: appendix diagnostic <span class="week-tag">Weeks 4-5</span></h3>
+<pre class="diagram" data-language="text"><code class="language-text">Sale-to-assessment ratio = property sale price / assessed property value
+</code></pre>
+<p>This ratio evaluates how closely assessed values track observed sale prices.
+It is not a direct measure of homebuyer affordability.</p>
+<ul>
+<li>A ratio near 1.0 means sale price and assessment are approximately aligned.</li>
+<li>A ratio above 1.0 means the property sold for more than its assessed value.</li>
+<li>A ratio below 1.0 means the property sold for less than its assessed value.</li>
+</ul>
+<p>The ratio can support the displacement-risk theme indirectly. If market prices
+rise substantially above assessments, a later reassessment may increase
+property-tax exposure for existing owners. That exposure may be more important
+for lower-income, elderly, fixed-income, and longtime homeowners.</p>
+<p>The final presentation should describe this measure as <strong>assessment
+alignment</strong>, not as proof of mortgage availability, political intent, tax-bill
+change, or buyer affordability. The main presentation should use transaction
+activity instead while assessment-year alignment remains unverified.</p>
+<h3 id="sec:2-3-how-the-measures-complement-one-another-week-5">2.3 How the measures complement one another <span class="week-tag">Week 5</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>Main question</th>
+<th>Population most relevant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Price-to-income</td>
+<td>Are market prices aligned with local incomes?</td>
+<td>Prospective buyers and the wider community</td>
+</tr>
+<tr>
+<td>Transaction activity</td>
+<td>Is recorded market activity increasing or decreasing?</td>
+<td>Neighborhood market; not a direct measure of household movement</td>
+</tr>
+<tr>
+<td>Rent burden</td>
+<td>Can tenants continue to afford housing costs?</td>
+<td>Renters</td>
+</tr>
+<tr>
+<td>Appendix sale-to-assessment</td>
+<td>How do recorded sale prices compare with the RTT assessed-value field?</td>
+<td>Existing property owners; interpretation limited by missing assessment year</td>
+</tr>
+</tbody>
+</table></div>
+<p>The measures should remain separate. They should not be combined into one
+unexplained index.</p>
+<h2 id="sec:3-screening-five-zip-codes-and-selecting-two-case-studies-week-4">3. Screening five ZIP codes and selecting two case studies <span class="week-tag">Week 4</span></h2>
+<p>The presentation screen contains five ZIP/ZCTAs: 19132, 19143, 19122, 19138,
+and 19119. Citywide medians across all qualifying Philadelphia candidates set
+the market-growth and vulnerability quadrant boundaries. The two detailed
+areas must remain in the high-growth, high-vulnerability quadrant rather than
+being selected because their graphs appear interesting.</p>
+<p>The screen covers all four quadrants:</p>
+<ul>
+<li>19132 and 19143: higher growth and higher vulnerability; detailed case
+studies;</li>
+<li>19138: higher growth and lower vulnerability;</li>
+<li>19122: lower growth and higher vulnerability; and</li>
+<li>19119: lower growth and lower vulnerability.</li>
+</ul>
+<p>This design allows the team to explain why similar market changes may produce
+different consequences for residents.</p>
+<h3 id="sec:recommended-selection-matrix-week-4">Recommended selection matrix <span class="week-tag">Week 4</span></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>Lower resident vulnerability</th>
+<th>Higher resident vulnerability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lower market pressure</td>
+<td>Monitor and maintain baseline</td>
+<td>Prioritize resident support and stability</td>
+</tr>
+<tr>
+<td>Higher market pressure</td>
+<td>Manage growth and monitor affordability</td>
+<td>Highest anti-displacement attention</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="sec:minimum-selection-criteria-week-4">Minimum selection criteria <span class="week-tag">Week 4</span></h3>
+<ol>
+<li>Adequate annual sale observations in both ZIP codes.</li>
+<li>Matched Redfin price and ACS income coverage through 2024.</li>
+<li>Acceptable ACS margins of error for the main indicators.</li>
+<li>A meaningful difference in either market pressure or vulnerability.</li>
+<li>No selection based solely on the most extreme observed value.</li>
+</ol>
+<p>The team should record the rule and selected ZIP codes before interpreting the
+final results.</p>
+<p>In Week 5, report where all qualifying Philadelphia ZIP/ZCTAs fall on the same
+measures, not only the five presentation ZIPs. The five-ZIP screen remains a
+readable slide; the full distribution belongs in the dashboard and validation
+tables. If the selected ZIPs change materially under defensible property-type,
+unit, or source definitions, document the sensitivity rather than hiding it.</p>
+<p>The full Week 5 distribution shows that 19140 is the closest qualifying ZIP
+to 19132 on the growth/vulnerability quadrant: approximately 15.2% price CAGR
+and a 73.4% vulnerability percentile, compared with 17.0% and 73.9% for 19132.
+Therefore, 19132 and 19143 are a <strong>purposefully contrasting pair</strong>,
+not the two highest-scoring ZIPs. 19140 has adequate coverage and remains a
+close high-pressure benchmark; 19143 adds a higher current price,
+higher price-to-income ratio, greater renter exposure/burden, and a different
+transaction trajectory.</p>
+<p class="meta"><strong>Required speaker note:</strong> Disclose the 19140 comparison on
+the selection slide. If the objective changes to selecting the two most extreme
+combined growth/vulnerability cases, rerun the downstream analysis using 19132
+and 19140.</p>
+<blockquote><p><strong>Selection-slide speaker note:</strong> “19140 is the closest
+alternative to 19132 and has similarly high price growth and measured
+vulnerability. We retained it as a benchmark rather than a second case study
+because it largely repeats the 19132 quadrant profile. We selected 19143 to
+provide a contrasting higher-price, higher-price-to-income, renter-heavy case.
+Therefore, 19132 and 19143 are purposeful contrasting cases—not the two
+highest-scoring ZIPs.”</p></blockquote>
+<h2 id="sec:4-analytical-dimensions-to-build-weeks-4-5">4. Analytical dimensions to build <span class="week-tag">Weeks 4-5</span></h2>
+<h3 id="sec:4-1-market-pressure-weeks-4-5">4.1 Market pressure <span class="week-tag">Weeks 4-5</span></h3>
+<p>Use Redfin and Philadelphia real-estate-transfer (RTT) data to calculate the
+same measures for 19132, 19143, every qualifying Philadelphia ZIP/ZCTA, and a
+clearly defined City benchmark:</p>
+<ul>
+<li>nominal and inflation-adjusted median residential sale price;</li>
+<li>five-year and ten-year price growth;</li>
+<li>current price level relative to the Philadelphia median;</li>
+<li>price growth relative to Philadelphia overall;</li>
+<li>eligible sale counts and changes in transaction activity;</li>
+<li>transaction counts and transactions per 1,000 occupied housing units;</li>
+<li>price-growth speed, measured by CAGR, separately from acceleration, measured
+as the change in growth rate between pre-pandemic and recent periods;</li>
+<li>the appendix sale-to-assessment ratio and its interquartile range; and</li>
+<li>the stability of each trend after removing low-volume years.</li>
+</ul>
+<p>The city comparison is necessary. A 30% increase in one ZIP is not necessarily
+an unusual local signal if Philadelphia overall also increased by 30%.</p>
+<h4 id="sec:property-type-and-price-per-unit-decision-gate-week-5">Property type and price-per-unit decision gate [Week 5]</h4>
+<p>The current Redfin ZIP series is aggregated and the current RTT extracts contain
+parcel counts, not residential-unit counts. <code>property_count</code> and
+<code>n_parcel_rows</code> must not be treated as the number of homes within a property.
+Complete the following checks in order:</p>
+<ol>
+<li>Compare Redfin All Residential trends with available Redfin property-type
+series, including single-family, condominium, and multifamily categories.</li>
+<li>Search for an OPA property-characteristics source containing residential-unit
+counts and a defensible parcel key.</li>
+<li>If the OPA join passes coverage and reconciliation checks, calculate sale
+price per residential unit for multifamily properties and retain ordinary
+sale price for verified one-unit properties.</li>
+<li>If unit counts cannot be validated, restrict the principal price comparison
+to approximately one-unit properties or label the existing result as price
+per transacted property. Do not call it price per unit.</li>
+<li>Report whether 19132 and 19143 remain unusual under each defensible
+specification.</li>
+</ol>
+<p>Also reconcile annual Redfin and RTT price trends. Compare direction, growth,
+coverage, property definitions, and low-volume years rather than expecting the
+two sources to produce identical medians.</p>
+<h3 id="sec:4-2-affordability-pressure-weeks-4-5">4.2 Affordability pressure <span class="week-tag">Weeks 4-5</span></h3>
+<p>Retain the current price-to-income ratio and add:</p>
+<ul>
+<li>median gross rent;</li>
+<li>renter cost burden: share spending at least 30% of income on rent;</li>
+<li>severe renter cost burden: share spending at least 50%;</li>
+<li>owner housing costs as a percentage of income;</li>
+<li>income growth compared with sale-price and rent growth; and</li>
+<li>an optional mortgage-payment-to-income scenario, clearly labeled as a
+scenario rather than observed buyer affordability.</li>
+</ul>
+<h3 id="sec:4-3-resident-vulnerability-weeks-4-5">4.3 Resident vulnerability <span class="week-tag">Weeks 4-5</span></h3>
+<p>Introduce resident vulnerability before the market-pressure results. Compare
+the two detailed case-study ZIPs with the Philadelphia ZIP/ZCTA distribution
+and, where geographically comparable, the City estimate on:</p>
+<ul>
+<li>renter and homeowner share;</li>
+<li>poverty rate;</li>
+<li>median household income;</li>
+<li>educational attainment;</li>
+<li>senior population;</li>
+<li>renter and owner housing-cost burden;</li>
+<li>recent-mover or residential-mobility measures;</li>
+<li>households receiving public assistance, if retained; and</li>
+<li>ACS margins of error and data-quality flags.</li>
+</ul>
+<p>For neighborhood-composition change, prefer non-overlapping ACS five-year
+endpoints such as 2010-2014 and 2020-2024. This avoids treating heavily
+overlapping releases as independent annual observations. Keep the endpoint
+periods and margins of error visible in the output.</p>
+<p>This dimension prevents the analysis from treating appreciation as equivalent
+to displacement risk. Similar price growth can have different implications in
+a high-income, owner-occupied ZIP and a lower-income, renter-heavy ZIP.</p>
+<p>ACS is a survey. Retain estimates and margins of error together, flag unstable
+ZIP-level estimates, and state that populations facing housing instability may
+be difficult to measure fully. Do not describe small percentage differences as
+substantive when their uncertainty overlaps.</p>
+<h3 id="sec:4-4-observable-housing-instability-signals-week-5-priority-if-available">4.4 Observable housing-instability signals <span class="week-tag">Week 5 - priority if available</span></h3>
+<p>Prioritize eviction filings as the first outcome-oriented source because both
+case studies show substantial renter exposure. If usable eviction coverage is
+not available, document that constraint and select only one alternative:</p>
+<ul>
+<li>property-tax delinquency or foreclosure;</li>
+<li>residential turnover;</li>
+<li>demolition, construction, or conversion permits;</li>
+<li>investor or corporate purchases; or</li>
+<li>changes in affordable rental inventory.</li>
+</ul>
+<p>Rent burden plus eviction filings, or one documented substitute, would
+materially strengthen the analysis. Attempting every possible dataset within
+three weeks would add more integration risk than analytical value.</p>
+<h3 id="sec:4-5-validated-trajectory-and-forecasting-analysis-weeks-5-6">4.5 Validated trajectory and forecasting analysis <span class="week-tag">Weeks 5-6</span></h3>
+<p>Replace unvalidated long-range trend extrapolation with a time-ordered model
+comparison. Select a target with adequate frequency and coverage, preferably
+monthly or quarterly transaction activity or price for Philadelphia and the
+two detailed ZIPs. Compare:</p>
+<ul>
+<li>seasonal naive or random-walk baseline;</li>
+<li>ETS;</li>
+<li>ARIMA; and</li>
+<li>dynamic regression only when defensible predictors are available.</li>
+</ul>
+<p>Use rolling-origin or blocked holdout validation and report MAE, RMSE, and MASE.
+Pandemic sensitivity is implemented three ways: retain all observations with
+explicit pandemic and recording-backlog intervention indicators; treat the
+identified disruption months as missing; and fit only the May 2022 onward
+regime. All alternatives are judged on the same January 2024-December 2025
+holdout. No treatment wins for both ZIPs, so the all-history intervention model
+is the transparent reference and the alternative paths are retained as a
+sensitivity range. Display prediction intervals and describe a 2035 path as a
+long-horizon conditional forecast with substantial uncertainty. XGBoost may be
+added as a challenger only if the dataset has enough observations and
+predeclared lagged features; LightGBM is not required.</p>
+<h2 id="sec:5-recommended-core-visualizations-weeks-5-6">5. Recommended core visualizations <span class="week-tag">Weeks 5-6</span></h2>
+<p>Use one semantic color system throughout the slides and dashboard:</p>
+<ul>
+<li>19132: orange;</li>
+<li>19143: blue;</li>
+<li>Philadelphia: black;</li>
+<li>other comparison ZIPs: gray; and</li>
+<li>time periods: light/dark shades or different shapes, not the ZIP colors.</li>
+</ul>
+<h3 id="sec:visualization-1-vulnerability-profile-with-baseline-week-5">Visualization 1: Vulnerability profile with baseline <span class="week-tag">Week 5</span></h3>
+<p>Introduce vulnerability first. Use a compact dot or dumbbell profile for the
+four screening components: renter share, renter cost burden, poverty, and
+senior share. Show 19132, 19143, and the Philadelphia comparison value. Include
+MOE warnings in the tooltip or notes. Keep the additional severe-renter and
+owner-cost-burden measures in the dashboard or appendix.</p>
+<h3 id="sec:visualization-2-selection-and-citywide-context-week-5">Visualization 2: Selection and citywide context <span class="week-tag">Week 5</span></h3>
+<p>Retain the readable five-ZIP quadrant slide, with bold citywide-median reference
+lines. Add a dashboard version containing all qualifying Philadelphia ZIP/ZCTAs
+and tooltips for price level, growth, vulnerability, transaction coverage, and
+MOE flags. State that the x-axis measures growth speed, not current price level
+or acceleration.</p>
+<h3 id="sec:visualization-3-price-income-and-philadelphia-trajectory-week-5">Visualization 3: Price, income, and Philadelphia trajectory <span class="week-tag">Week 5</span></h3>
+<p>Compare both detailed ZIPs with Philadelphia using either indexed trends or a
+common-scale growth-gap dumbbell. Show current price level alongside growth so
+the audience can see that a ZIP may remain below the city median while changing
+rapidly. Label whether values are nominal or inflation-adjusted and identify
+the common valid period.</p>
+<h3 id="sec:visualization-4-transaction-activity-with-comparison-baseline-week-5">Visualization 4: Transaction activity with comparison baseline <span class="week-tag">Week 5</span></h3>
+<p>Retain the arm’s-length eligible-sale definition and sales per 1,000 occupied
+units. The slide may show the five readable comparison ZIPs, but the dashboard
+must show all qualifying ZIPs and the Philadelphia benchmark. Use neutral
+period styling so blue and orange remain reserved for the detailed ZIPs. Treat
+the metric as property-market activity, not household turnover or direct proof
+of displacement.</p>
+<h3 id="sec:visualization-7-pandemic-adjusted-transaction-forecast-week-5">Visualization 7: Pandemic-adjusted transaction forecast <span class="week-tag">Week 5</span></h3>
+<p>Show actual values and the all-history intervention-adjusted forecast with 80%
+and 95% prediction intervals. Shade the pandemic and recording-backlog windows,
+make the expanding uncertainty prominent, and state that future intervention
+fields are set to zero rather than implying that the disruptions never occurred.</p>
+<h3 id="sec:visualization-8-pandemic-forecast-sensitivity-week-5">Visualization 8: Pandemic forecast sensitivity <span class="week-tag">Week 5</span></h3>
+<p>Place the intervention-adjusted, disruption-excluded, and post-backlog forecast
+paths on one common scale for each ZIP. Separation between the lines is model
+uncertainty arising from the treatment of unusual years. It is not three
+possible policy outcomes and should not be collapsed into a single precise
+number.</p>
+<h3 id="sec:appendix-visualization-sale-to-assessment-trend-week-5">Appendix visualization: Sale-to-assessment trend <span class="week-tag">Week 5</span></h3>
+<p>Retain the chart only as an assessment-alignment diagnostic until a year-specific
+OPA assessment join resolves timing. It does not establish mortgage availability,
+buyer affordability, political intent, or displacement.</p>
+<h3 id="sec:final-visualization-evidence-to-response-matrix-week-6">Final visualization: Evidence-to-response matrix <span class="week-tag">Week 6</span></h3>
+<p>Summarize how vulnerability, market pressure, demographic or instability
+evidence, and forecast/scenario conditions lead to a differentiated response.</p>
+<h2 id="sec:6-final-tableau-dashboard-week-6">6. Final Tableau dashboard <span class="week-tag">Week 6</span></h2>
+<pre class="diagram" data-language="text"><code class="language-text">+----------------------------------------------------------------------------+
+| ALL-PHILADELPHIA CONTEXT WITH TWO DETAILED CASE STUDIES                     |
+| ZIP [____]  Property type [____]  Period [____]  Source [Redfin | RTT]       |
++--------------------------------------+-------------------------------------+
+| Vulnerability and selection context  | Case-study KPI comparison           |
+| All qualifying ZIPs + City baseline  | Price level | growth | income | MOE |
++--------------------------------------+-------------------------------------+
+| Price/income and City trajectory     | Transaction activity                |
+| 19132 | 19143 | Philadelphia         | All ZIPs + sales per 1,000 baseline |
++--------------------------------------+-------------------------------------+
+| Outcome/forecast evidence            | Evidence-linked City responses      |
+| Evictions/permits + validated model  | Condition -&gt; trigger -&gt; response    |
++--------------------------------------+-------------------------------------+
+| Screening and forecasting evidence; not proof of individual displacement  |
++----------------------------------------------------------------------------+
+</code></pre>
+<p>The dashboard should answer four questions without requiring the audience to
+interpret separate spreadsheets:</p>
+<ol>
+<li>What changed in each ZIP?</li>
+<li>Is that change unusual relative to other ZIPs and Philadelphia overall?</li>
+<li>Which residents appear most exposed?</li>
+<li>Which response is supported by the observed evidence or scenario?</li>
+</ol>
+<h3 id="sec:final-tableau-semantic-layer-week-6">Final Tableau semantic layer <span class="week-tag">Week 6</span></h3>
+<p>The production ingestion folder contains only five files:</p>
+<ul>
+<li><code>dim_geography.csv</code>, one row per geography key;</li>
+<li><code>fact_zip_profile.csv</code>, one row per geography key;</li>
+<li><code>fact_annual_signals.csv</code>, one row per geography key and year;</li>
+<li><code>fact_monthly_forecast.csv</code>, one row per geography key, month, and series type; and</li>
+<li><code>fact_policy_response.csv</code>, one row per recommendation key.</li>
+</ul>
+<p>In Tableau, relate every fact directly to <code>dim_geography</code> through
+<code>geography_key</code>. Do not physically join the facts: their grains differ
+and a physical join would multiply records and inflate counts. The Week 6
+runner checks dimension uniqueness, fact primary keys, and orphan foreign keys.
+The previous five-chart ingestion package is archived outside the production
+folder.</p>
+<h3 id="sec:tableau-zip-filter-behavior-week-6">Tableau ZIP-filter behavior <span class="week-tag">Week 6</span></h3>
+<ul>
+<li>The workbook opens with <strong>19132 and 19143 selected by default</strong>
+in a visible multi-select Tableau set control named <strong>Selected ZIPs</strong>.</li>
+<li>Clients can select any one ZIP, any combination, or all qualifying
+Philadelphia ZIP/ZCTAs; the selector is not hard-coded to the case studies.</li>
+<li>Detail sheets respond to the ZIP selector wherever their source has
+citywide ZIP coverage. Annual views use <code>City benchmark OR Selected ZIPs</code>
+so the comparison line remains visible.</li>
+<li>The citywide quadrant remains populated with every qualifying ZIP and
+colors membership in <strong>Selected ZIPs</strong>, so the selector does not remove
+the comparison distribution or median reference lines.</li>
+<li>Forecast and property-level OPA sensitivity views remain clearly labeled
+case-study-only until equivalent all-ZIP builds exist. Other selections show an
+availability message rather than a misleading blank chart.</li>
+<li>Provide <code>Reset to 19132 + 19143</code> and
+<code>All qualifying ZIPs</code> actions.</li>
+</ul>
+<h2 id="sec:7-connecting-findings-to-recommendations-week-6">7. Connecting findings to recommendations <span class="week-tag">Week 6</span></h2>
+<p>Recommendations should differ by ZIP and follow directly from the evidence.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Observed condition or scenario</th>
+<th>Evidence trigger to report</th>
+<th>Potential City response</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High renter burden with rising rent or eviction filings</td>
+<td>Burden and outcome exceed the Philadelphia comparison</td>
+<td>Eviction-prevention outreach and rental preservation</td>
+</tr>
+<tr>
+<td>Rapid price or per-unit appreciation with vulnerable renters</td>
+<td>Growth remains unusual after property-type and source checks</td>
+<td>Preserve naturally occurring affordable housing and consider acquisition support</td>
+</tr>
+<tr>
+<td>Increasing pressure on lower-income or senior homeowners</td>
+<td>Owner burden, delinquency, assessment, or tax evidence supports the concern</td>
+<td>Promote LOOP, installment plans, tangled-title support, and counseling</td>
+</tr>
+<tr>
+<td>Permit or investor activity accelerates in a vulnerable area</td>
+<td>Activity exceeds the ZIP’s baseline and City trajectory</td>
+<td>Target preservation, code enforcement, and community acquisition tools</td>
+</tr>
+<tr>
+<td>Forecast indicates continued pressure</td>
+<td>Validated model exceeds its benchmark and intervals remain policy-relevant</td>
+<td>Begin time-consuming preservation and outreach remedies before the projected peak</td>
+</tr>
+<tr>
+<td>Strong growth but lower measured vulnerability</td>
+<td>Market change is unusual but exposure indicators remain lower</td>
+<td>Monitor rather than label as a displacement priority</td>
+</tr>
+<tr>
+<td>Weak, missing, or uncertain evidence</td>
+<td>Coverage, MOE, source disagreement, or forecast error is material</td>
+<td>Improve data collection and continue monitoring</td>
+</tr>
+</tbody>
+</table></div>
+<p>These are policy-alignment recommendations, not claims that one program will
+causally prevent displacement. Final recommendations should also recognize
+program eligibility, capacity, budget, and operational constraints.</p>
+<h2 id="sec:8-week-by-week-implementation-plan-weeks-4-6">8. Week-by-week implementation plan <span class="week-tag">Weeks 4-6</span></h2>
+<h3 id="sec:week-4-define-and-construct-week-4">Week 4: Define and construct <span class="week-tag">Week 4</span></h3>
+<p><strong>Objective:</strong> Finalize the five-ZIP screen and produce an analysis-ready
+two-ZIP case-study panel.</p>
+<p>Tasks:</p>
+<ol>
+<li>Confirm the five candidate ZIPs, the citywide quadrant thresholds, and the
+two detailed case studies.</li>
+<li>Keep ZIP/ZCTA as the common analytical geography for this deliverable.</li>
+<li>Add ACS measures for tenure, rent burden, poverty, senior population, median
+rent, owner housing costs, and residential mobility.</li>
+<li>Retain ACS estimates and margins of error together.</li>
+<li>Convert monetary trends to constant dollars for change comparisons while
+retaining clearly labeled nominal values where needed.</li>
+<li>Construct ZIP-year price-to-income measures using the existing validated
+Redfin/ACS overlap.</li>
+<li>Construct the five-ZIP transaction-activity comparison using three-year
+averages and a fixed occupied-housing-unit denominator.</li>
+<li>Retain the sale-to-assessment calculation as an appendix diagnostic and
+document that assessment-year alignment remains unverified.</li>
+<li>Produce a coverage table showing years, observations, exclusions, and MOE
+warnings for both detailed ZIP codes.</li>
+</ol>
+<p><strong>Week 4 deliverables:</strong></p>
+<ul>
+<li>documented five-ZIP screen and two-ZIP case-study selection;</li>
+<li>joined two-ZIP analytical dataset;</li>
+<li>data dictionary and calculation notes;</li>
+<li>coverage and missingness report; and</li>
+<li>preliminary trend charts.</li>
+</ul>
+<p><strong>Decision gate:</strong> Do both ZIPs have enough comparable observations and reliable
+ACS estimates to support the proposed comparison? If not, replace a ZIP using
+the same predeclared selection rule.</p>
+<h3 id="sec:week-5-compare-and-validate-week-5">Week 5: Compare and validate <span class="week-tag">Week 5</span></h3>
+<p><strong>Objective:</strong> Put 19132 and 19143 in full Philadelphia context and determine
+whether their apparent pressure remains meaningful under alternative sources,
+property definitions, comparison periods, and uncertainty rules.</p>
+<p>Tasks:</p>
+<ol>
+<li><strong>Build the all-ZIP benchmark panel.</strong> Calculate the selection, price,
+income, vulnerability, and transaction measures for every qualifying
+Philadelphia ZIP/ZCTA. Produce both the ZIP-level distribution and a
+separately labeled City benchmark.</li>
+<li><strong>Keep the slide comparison readable.</strong> Retain the five comparison ZIPs for
+presentation, but use the complete qualifying set in statistical checks and
+the dashboard.</li>
+<li><strong>Introduce vulnerability first.</strong> Add the Philadelphia comparison and MOE
+status to the four-component vulnerability profile. Do not imply that ACS
+point estimates are exact or that the survey captures every vulnerable
+household.</li>
+<li><strong>Resolve the property-unit question.</strong> Inventory Redfin property types and
+seek an OPA residential-unit-count field. Never substitute parcel count for
+housing-unit count. Use the decision gate in Section 4.1 to choose
+price-per-unit, one-unit-only, property-type-separated, or clearly labeled
+price-per-property analysis.</li>
+<li><strong>Reconcile Redfin with RTT.</strong> Compare annual/quarterly trends, growth ranks,
+sample coverage, and definitions. Explain disagreements and test whether the
+case-study selection changes by source.</li>
+<li><strong>Separate price level, speed, and acceleration.</strong> Report current price
+relative to Philadelphia, CAGR as growth speed, and recent-minus-earlier
+growth as acceleration. Do not use these terms interchangeably.</li>
+<li><strong>Benchmark transaction change.</strong> Compare arm’s-length eligible sales per
+1,000 occupied units across all qualifying ZIPs and Philadelphia. Test the
+price-growth/transaction association with a scatterplot, correlation,
+sample size, and low-volume sensitivity check; do not claim a cause.</li>
+<li><strong>Measure neighborhood composition change.</strong> Compare non-overlapping ACS
+endpoints, preferably 2010-2014 and 2020-2024, for income, education,
+tenure, poverty, age, rent, and burden. Retain MOEs and use this evidence to
+distinguish housing pressure from a stronger gentrification claim.</li>
+<li><strong>Add one outcome-oriented source.</strong> Prioritize eviction filings. If the
+geographic or temporal coverage is unusable, use permits as the documented
+substitute. Treat sheriff sales or foreclosure as a narrow homeowner-risk
+extension, not a general displacement measure.</li>
+<li><strong>Evaluate Redfin market context.</strong> Add inventory and days on market when
+definitions and ZIP coverage are adequate. Use these measures as possible
+explanations for price and transaction patterns, not automatic causes.</li>
+<li><strong>Build and validate the forecast.</strong> Compare naive, ETS, and ARIMA models
+with time-ordered validation. Test pandemic sensitivity, report error and
+intervals, and select a model only if it improves on the baseline.</li>
+<li><strong>Apply sensitivity checks.</strong> Test alternative base years, minimum sale
+counts, inflation treatment, property definitions, and exclusion of unusual
+years. Retain sale-to-assessment only as an appendix sensitivity result.</li>
+<li><strong>Draft evidence profiles.</strong> Write one evidence statement for each detailed
+ZIP covering vulnerability, price level and trajectory, transactions,
+demographic/outcome evidence, forecast uncertainty, and prohibited claims.</li>
+<li><strong>Export dashboard-ready tables.</strong> Use clearly named scripts, stable keys,
+source fields, City/ZIP geography labels, and data-quality flags.</li>
+</ol>
+<p><strong>Week 5 deliverables:</strong></p>
+<ul>
+<li>all-qualifying-ZIP benchmark and separately labeled Philadelphia summary;</li>
+<li>revised vulnerability-first comparison views with consistent colors;</li>
+<li>property-type/unit-count feasibility memo and implemented decision;</li>
+<li>Redfin-versus-RTT reconciliation table and rank-stability check;</li>
+<li>price-level, speed, and acceleration comparison;</li>
+<li>all-ZIP transaction benchmark and noncausal association test;</li>
+<li>non-overlapping ACS neighborhood-composition comparison;</li>
+<li>eviction-filing analysis or permits substitute;</li>
+<li>validated forecast comparison with a primary pandemic-adjusted view, a
+three-path pandemic sensitivity view, and prediction intervals;</li>
+<li>consolidated sensitivity-check table;</li>
+<li>preliminary Tableau data sources; and</li>
+<li>one evidence profile for each detailed ZIP.</li>
+</ul>
+<p><strong>Implemented Week 5 scripts:</strong></p>
+<ul>
+<li><code>R/week05_run_all.R</code>: reproducible batch runner;</li>
+<li><code>R/week05_citywide_context.R</code>: 37-ZIP and Philadelphia benchmarks;</li>
+<li><code>R/week05_property_permit_validation.R</code>: OPA property-type/unit audit and L&amp;I permits;</li>
+<li><code>R/week05_redfin_rtt_reconciliation.R</code>: source and growth-rank sensitivity;</li>
+<li><code>R/week05_neighborhood_change.R</code>: non-overlapping income and price endpoints;</li>
+<li><code>R/week05_eviction_market_signals.R</code>: eviction, inventory, and days-on-market signals; and</li>
+<li><code>R/week05_time_series_forecasting.R</code>: holdout validation,
+common-holdout pandemic-treatment sensitivity, and conditional 2035 planning baselines.</li>
+</ul>
+<p>Definitions, source URLs, refresh rules, and current decision boundaries are
+documented in <code>docs/WEEK_05_DATA_DICTIONARY_AND_NOTES.md</code>.</p>
+<p><strong>Decision gate:</strong> Do 19132 and 19143 remain defensible detailed case studies
+after the City/all-ZIP comparison, unit/property-type test, source
+reconciliation, MOE review, and time-ordered forecast validation? If a result
+is unstable, narrow or qualify the claim rather than selecting the most
+favorable specification.</p>
+<h3 id="sec:week-6-recommend-and-communicate-week-6">Week 6: Recommend and communicate <span class="week-tag">Week 6</span></h3>
+<p><strong>Objective:</strong> Convert the validated citywide context and two-ZIP evidence into
+a decision-oriented dashboard, forecast/scenario interpretation, and responses
+that can begin before pressure becomes more severe.</p>
+<p>Tasks:</p>
+<ol>
+<li>Build the interactive all-Philadelphia context view. Default the visible
+multi-select ZIP control to 19132 and 19143 while allowing any qualifying ZIP,
+any combination, or all ZIPs. Add property-type, source, and period controls.</li>
+<li>Preserve the five-ZIP screen as a readable presentation layer while making
+every qualifying ZIP available in the dashboard.</li>
+<li>Apply the fixed semantic color system across R, Tableau, and PowerPoint.</li>
+<li>Display Philadelphia baselines, sample sizes, MOE/data-quality flags, and
+source definitions in tooltips and notes.</li>
+<li>Add the validated forecast only if it beats the baseline. Separate observed
+data, forecast values, prediction intervals, and policy scenarios visually
+and verbally.</li>
+<li>Explain why acting early may matter: preservation, acquisition, outreach,
+and legal remedies require lead time even when current prices remain below
+the City median.</li>
+<li>Link each recommendation to an observed condition or forecast/scenario
+trigger. Make renter, homeowner, preservation, and monitoring responses
+distinct.</li>
+<li>Make the recommendations different where 19132 and 19143 differ, and avoid
+claiming that one policy will causally prevent displacement.</li>
+<li>Add a concise limitations panel covering ACS sampling, ZIP/ZCTA mismatch,
+property-versus-unit definitions, Redfin/RTT disagreement, pandemic effects,
+outcome-source coverage, and forecast uncertainty.</li>
+<li>Fact-check every dashboard and slide number against the exported tables.</li>
+<li>Synchronize definitions, periods, colors, findings, and limitations across
+R outputs, Markdown, HTML, Tableau, the decision log, and PowerPoint.</li>
+<li>Rehearse a narrative that moves from vulnerability to citywide context,
+validated pressure, possible future conditions, and evidence-linked action.</li>
+<li>Add the required selection speaker note: 19140 closely matches 19132 and
+was retained as a benchmark; 19143 was chosen to create a contrasting
+higher-price, renter-heavy affordability case rather than because it had the
+second-highest quadrant score.</li>
+<li>Include a forecast methods box and technical appendix stating the target,
+January 2010-December 2025 training period, 192 monthly observations per ZIP,
+120-month horizon, candidate models, holdout windows, selected Auto-ARIMA
+orders, intervention variables, residual check, and the absence of external
+market predictors.</li>
+</ol>
+<p><strong>Week 6 deliverables:</strong></p>
+<ul>
+<li>final Tableau dashboard with every qualifying ZIP, a City baseline, and two
+detailed case-study views;</li>
+<li>final five-ZIP presentation screen;</li>
+<li>two-ZIP evidence, forecast/scenario, and recommendation matrix;</li>
+<li>presentation-ready charts using the consistent color system;</li>
+<li>speaker notes explaining definitions, comparisons, uncertainty, claim
+boundaries, and the explicit 19140-versus-19143 selection rationale;</li>
+<li>reproducible exports and source documentation;</li>
+<li>updated Markdown, HTML, data dictionary, run order, and decision log; and</li>
+<li>final limitations and next-steps statement.</li>
+</ul>
+<p><strong>Implemented Week 6 scripts:</strong></p>
+<ul>
+<li><code>R/week06_run_all.R</code>: complete Week 6 runner and final package validation;</li>
+<li><code>R/week06_dashboard_exports.R</code>: geography dimension, ZIP profile,
+annual signals, observed/forecast fact, relationship audit, and percentile profile;</li>
+<li><code>R/week06_forecast_technical_appendix.R</code>: selected Auto-ARIMA orders,
+coefficients, residual diagnostics, sample/construction metadata, and unseen-period
+RMSE visualization;</li>
+<li><code>R/week06_exogenous_forecast_challenger.R</code>: same-sample test of
+lagged mortgage rates, Redfin inventory, and days on market against the
+intervention-only model; and</li>
+<li><code>R/week06_policy_scenario_matrix.R</code>: differentiated evidence triggers,
+conditional responses, lead times, monitoring metrics, claim boundaries, and
+the policy-priority visualization.</li>
+</ul>
+<p>See <code>docs/WEEK_06_DATA_DICTIONARY_AND_DASHBOARD_GUIDE.md</code> and
+<code>tableau_data/tableau_ingestion/README.md</code> for the final relationship
+model, field definitions, filter behavior, and dashboard build specification.</p>
+<p><strong>Decision gate:</strong> Can a City audience identify who appears vulnerable, whether
+the selected ZIPs differ from Philadelphia and other ZIPs, which results are
+robust, what the forecast does and does not establish, and which response is
+triggered by each evidence pattern?</p>
+<h2 id="sec:9-required-technical-cautions-weeks-4-6">9. Required technical cautions <span class="week-tag">Weeks 4-6</span></h2>
+<ol>
+<li><strong>[Week 4] ZIP and ZCTA are not identical.</strong> Describe the ACS join as a ZIP/ZCTA
+approximation and document unmatched areas.</li>
+<li><strong>[Weeks 4-5] ACS five-year releases overlap.</strong> Avoid interpreting every adjacent annual
+change as a completely new sample.</li>
+<li><strong>[Week 4] ACS one-year data are not published for ZCTAs.</strong> Use ACS five-year
+releases for ZIP-level comparisons. If ACS one-year data are used for a
+Philadelphia citywide benchmark, label the different geography and source
+separately.</li>
+<li><strong>[Weeks 4-5] Margins of error matter.</strong> Retain MOE fields and flag unreliable
+comparisons rather than silently dropping them.</li>
+<li><strong>[Week 4] Use constant dollars for long-run growth.</strong> Nominal growth can overstate
+changes in purchasing power.</li>
+<li><strong>[Week 4] Redfin observations are rolling periods.</strong> Preserve the documented annual
+aggregation rule and do not describe the source as ordinary monthly sales.</li>
+<li><strong>[Weeks 4-6] Sale-to-assessment is an appendix diagnostic.</strong> It does not
+establish mortgage availability, political intent, a tax-bill change, or
+buyer affordability.</li>
+<li><strong>[Week 4] Assessment timing must align with sales.</strong> A mismatched assessment year can
+create an artificial ratio gap.</li>
+<li><strong>[Week 5] Medians can hide distributional differences.</strong> Report the interquartile
+range and eligible observation count.</li>
+<li><strong>[Weeks 5-6] Correlation is not causation.</strong> The analysis identifies conditions that
+warrant monitoring; it does not prove that price changes caused migration or
+displacement.</li>
+<li><strong>[Week 5] Properties, parcels, and housing units are different.</strong> A
+multifamily property sale is not a single housing-unit sale. Parcel counts
+do not supply residential-unit counts.</li>
+<li><strong>[Week 5] Redfin and RTT measure different samples.</strong> Compare their
+definitions and trajectories; do not expect identical medians or silently
+choose the source with the stronger result.</li>
+<li><strong>[Week 5] Price level, growth speed, and acceleration are different.</strong> A
+below-median ZIP can grow rapidly; CAGR does not measure acceleration.</li>
+<li><strong>[Weeks 5-6] ACS is sample-based.</strong> Retain MOEs, flag unstable estimates,
+and acknowledge potential underrepresentation of hard-to-survey residents.</li>
+<li><strong>[Weeks 5-6] Forecasts require time-ordered validation.</strong> Compare with a
+naive baseline, test pandemic sensitivity, and display prediction
+intervals. A long horizon does not become accurate merely because a model
+produced it.</li>
+<li><strong>[Week 6] Two ZIPs are case studies.</strong> Findings should not automatically be
+generalized to every Philadelphia neighborhood.</li>
+</ol>
+<h2 id="sec:10-minimum-viable-scope-and-optional-extensions-week-4-scope-lock">10. Minimum viable scope and optional extensions <span class="week-tag">Week 4 scope lock</span></h2>
+<h3 id="sec:required-for-the-final-project-week-4-commit">Required for the final project <span class="week-tag">Week 4 - commit</span></h3>
+<ul>
+<li>a five-ZIP screen with two defensibly selected detailed case studies;</li>
+<li>an all-qualifying-ZIP validation panel and separately labeled City benchmark;</li>
+<li>property-type/unit-count feasibility check and transparent price definition;</li>
+<li>Redfin-versus-RTT reconciliation;</li>
+<li>price level, growth speed, and income comparison;</li>
+<li>price-to-income ratio;</li>
+<li>rent burden and tenure;</li>
+<li>resident-vulnerability comparison with Philadelphia baseline and MOE flags;</li>
+<li>five-ZIP presentation and all-ZIP dashboard transaction activity;</li>
+<li>non-overlapping ACS demographic-change comparison;</li>
+<li>eviction filings or permits as one outcome/investment source;</li>
+<li>validated naive/ETS/ARIMA forecast comparison with pandemic sensitivity;</li>
+<li>sale-to-assessment as an appendix diagnostic only;</li>
+<li>evidence-linked recommendations; and</li>
+<li>transparent limitations and data-quality checks.</li>
+</ul>
+<h3 id="sec:add-only-if-the-required-week-5-work-is-complete-week-5-decision-gate">Add only if the required Week 5 work is complete <span class="week-tag">Week 5 decision gate</span></h3>
+<ul>
+<li>investor ownership or repeat-sale flips;</li>
+<li>a second outcome source beyond the required eviction/permit choice;</li>
+<li>XGBoost as a forecasting challenger if the sample supports it;</li>
+<li>mortgage-payment affordability scenario;</li>
+<li>affordable-housing inventory; or</li>
+<li>a parcel- or tract-level map beyond the required ZIP dashboard.</li>
+</ul>
+<h2 id="sec:11-definition-of-a-successful-final-deliverable-week-6">11. Definition of a successful final deliverable <span class="week-tag">Week 6</span></h2>
+<p>The project is complete when the audience can understand:</p>
+<ol>
+<li>why the five ZIPs were screened and whether the two detailed selections
+remain defensible against all qualifying ZIPs and the City benchmark;</li>
+<li>how vulnerability differs before market results are introduced;</li>
+<li>how price level, growth speed, acceleration, income, and transaction
+activity differ;</li>
+<li>whether Redfin, RTT, and alternative property definitions support the same
+conclusion;</li>
+<li>what the property-versus-unit analysis can and cannot measure;</li>
+<li>whether demographic and outcome evidence supports housing-pressure,
+gentrification, or displacement language;</li>
+<li>what the validated forecast adds beyond a simple scenario and how pandemic
+years affect uncertainty;</li>
+<li>which City response is linked to each observed condition or scenario; and</li>
+<li>which limitations prevent stronger causal or predictive claims.</li>
+</ol>
+<h2 id="sec:12-supporting-policy-and-data-references-weeks-4-6">12. Supporting policy and data references <span class="week-tag">Weeks 4-6</span></h2>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://opendataphilly.org/datasets/philadelphia-properties-and-assessment-history/">Philadelphia OPA property file</a></li>
+<li><a target="_blank" rel="noopener" href="https://opendataphilly.org/datasets/licenses-and-inspections-building-and-zoning-permits/">Philadelphia L&amp;I building and zoning permits</a></li>
+<li><a target="_blank" rel="noopener" href="https://evictionlab.org/eviction-tracking/get-the-data/">Eviction Lab tracking-system downloads</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.redfin.com/news/data-center/">Redfin Data Center</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.phila.gov/departments/department-of-planning-and-development/about/our-results/housing-action-plan-dashboard/">Philadelphia Housing Action Plan dashboard</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.phila.gov/programs/home-initiative/">Philadelphia H.O.M.E. Initiative</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.phila.gov/media/20240822181540/Annual-Action-Plan-Year-2024-2025-Final.pdf">Philadelphia Annual Action Plan 2024-2025</a></li>
+<li><a target="_blank" rel="noopener" href="https://api.census.gov/data/2023/acs/acs5/groups/B25070.html">U.S. Census ACS rent-burden table B25070</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.census.gov/programs-surveys/acs/geography-acs/areas-published.html">U.S. Census ACS areas published</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.phila.gov/documents/assessment-methodologies/">Philadelphia property assessment methodology</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.phila.gov/departments/office-of-property-assessment/">Philadelphia Office of Property Assessment</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.urbandisplacement.org/wp-content/uploads/2021/07/udpaustin_methodology.pdf">Urban Displacement Project three-part methodology</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.huduser.gov/portal/periodicals/cityscape/vol26num1/ch20.pdf">HUD USER: Mapping Gentrification methodology</a></li>
+<li><a target="_blank" rel="noopener" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5450830/">Gentrification and Residential Mobility in Philadelphia</a></li>
+</ul>
+      <div class="footer">BSAN 710 project documentation | Weeks 5-6 implemented and validated</div>
+    </main>
+  </div>
+</body>
+</html>
+

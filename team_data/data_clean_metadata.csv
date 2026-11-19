@@ -1,0 +1,2 @@
+team_export_version,clean_cache_version,generated_at,grain,parcel_rows,parcel_columns,document_rows,document_columns,raw_rows,rows_removed_source_discrepancy,sale_price_outlier_quantile,sale_price_outlier_cutoff,analysis_start,analysis_end,last_complete_year,partial_year_included
+6,6,2026-10-09 16:12:16 EDT,data_clean: record_id; data_document: document_id,5067868,35,4401686,47,5168394,16203,0.999,11152916.979000267,2000-01-01,2026-07-31,2025,TRUE

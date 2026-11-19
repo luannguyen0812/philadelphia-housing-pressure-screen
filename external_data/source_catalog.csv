@@ -1,0 +1,17 @@
+output_field,source,series_or_file,frequency,transformation,source_url
+mortgage_rate_30y,FRED / Freddie Mac,MORTGAGE30US,weekly,Mean of weekly observations within each month,https://fred.stlouisfed.org/series/MORTGAGE30US
+recession_flag,FRED / NBER,USREC,monthly,"Used as published (1 = recession, 0 = expansion)",https://fred.stlouisfed.org/series/USREC
+philly_fhfa_hpi,FRED / FHFA,ATNHPIUS37964Q,quarterly,Quarter value joined to all three months in that quarter,https://fred.stlouisfed.org/series/ATNHPIUS37964Q
+peer_hpi,FRED / FHFA,Five metro/MSAD series,quarterly,Rebased to nearest available 2000 Q1 observation = 100,https://fred.stlouisfed.org/
+zhvi,Zillow Research,Metro ZHVI CSV,monthly,Optional; indexed to each city's first nonmissing project observation,https://www.zillow.com/research/data/
+sales_count,Zillow Research,Metro sales-count nowcast CSV,monthly,Optional; indexed to each city's first nonmissing project observation,https://www.zillow.com/research/data/
+median_property_price,Philadelphia Department of Records,team_data/data_document.csv.gz,annual by ZIP,"Median consideration among eligible single-property, non-nominal, non-outlier deed documents",https://opendataphilly.org/datasets/real-estate-transfers/
+median_household_income,U.S. Census Bureau,ACS 5-year B19013_001E,annual 5-year estimate by ZCTA,Used as published; joined from ZCTA to same five-character ZIP code,https://api.census.gov/data.html
+median_household_income_moe,U.S. Census Bureau,ACS 5-year B19013_001M,annual 5-year estimate by ZCTA,Margin of error retained; correlation input excludes estimates with relative MOE above 50%,https://api.census.gov/data.html
+redfin_median_sale_price,Redfin,external_data/raw/redfin_zip_prices_normalized.csv,rolling 90-day period by ZIP,All Residential only; period is the rolling-window end date; annual value is the median of available rolling-period medians,https://www.redfin.com/news/data-center/
+redfin_homes_sold,Redfin,external_data/raw/redfin_zip_prices_normalized.csv,rolling 90-day period by ZIP,Annual activity field is the median of available rolling-period homes-sold counts; it is not an annual sum,https://www.redfin.com/news/data-center/
+opa_property_class,Philadelphia Office of Property Assessment,opa_properties_public,current parcel snapshot,"Joined by OPA account/parcel number; category consolidated to property groups; unit is not treated as dwelling-unit count",https://opendataphilly.org/datasets/philadelphia-properties-and-assessment-history/
+li_permits,Philadelphia Department of Licenses and Inspections,permits,permit issued date by ZIP,"Aggregated by ZIP/year/work type; new-construction numberofunits is a permitted pipeline, not completed housing",https://opendataphilly.org/datasets/licenses-and-inspections-building-and-zoning-permits/
+eviction_filings,Eviction Lab,Eviction Tracking System v3.0,monthly by Pennsylvania ZIP,"Observed filings compared with pre-pandemic baseline; cases are not unique households or completed evictions",https://evictionlab.org/eviction-tracking/get-the-data/
+redfin_inventory,Redfin,external_data/raw/redfin_zip_market_tracker_philadelphia.tsv,rolling 90-day period by ZIP,"All Residential quarterly observations averaged within year; inventory is a snapshot measure",https://www.redfin.com/news/data-center/
+redfin_median_dom,Redfin,external_data/raw/redfin_zip_market_tracker_philadelphia.tsv,rolling 90-day period by ZIP,"All Residential quarterly median-days-on-market observations averaged within year",https://www.redfin.com/news/data-center/
