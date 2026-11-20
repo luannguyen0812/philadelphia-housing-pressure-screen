@@ -138,7 +138,7 @@ separately from `run_all.R` and never enters the dashboard.
 
 One caution travels with it: the benchmark is the average of every neighborhood
 in the Baltimore *metro* file, not a citywide median. See
-[`code/baltimore/README.md`](code/baltimore/README.md).
+[`code/README.md`](code/README.md#stage-20-the-baltimore-peer-city-comparison).
 
 ---
 
@@ -149,9 +149,10 @@ code/                 the pipeline, in run order
   00_config.R          project-root resolution, no hard-coded paths
   01 … 19              install → clean → measure → select → validate → forecast
                        → dashboard facts → response matrix → package gate
+  20_baltimore_…       peer-city comparison (runs separately, not in run_all.R)
   run_all.R            one entry point
-  baltimore/           stage 20, the peer-city comparison (runs separately)
-  README.md            file-by-file reference, inputs, outputs, limits
+  README.md            file-by-file reference, inputs, outputs, limits,
+                       plus the stage 20 definition and its caveats
   docs/                how the five dashboard files become the Tableau workbook
 
 R/                    week-by-week working scripts, kept because docs/ cites them

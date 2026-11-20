@@ -6,7 +6,7 @@
 |---|---|
 | Prepared by | BSAN 710 Group 4, Drexel University, LeBow College of Business |
 | Contact for this code | Luan Nguyen |
-| Baltimore section | Stage 20, run separately (see `baltimore/README.md`) |
+| Baltimore section | Stage 20, run separately (see the stage 20 section below) |
 | Version | 1.0 |
 | Date prepared | 18 November 2026 |
 | Course | BSAN 710, Fall 2026, MS in Business Analytics Capstone |
@@ -67,9 +67,8 @@ giving its purpose, inputs, outputs and the stage it must follow.
 | `17_exogenous_forecast_challenger.R` | External-driver test on a common holdout | 03, 02 | `tableau_data/week06_exogenous_*.csv` |
 | `18_build_response_matrix.R` | Evidence-to-response actions and claim boundaries | 15 | `tableau_data/tableau_ingestion/fact_policy_response.csv` |
 | `19_validate_dashboard_package.R` | Final gate and package audit | 15–18 | `tableau_data/week06_final_package_audit.csv` |
-| `baltimore/20_baltimore_comparison.R` | **Baltimore peer-city comparison**: five neighborhoods against the Baltimore benchmark, 2012–2025 | `external_data/raw/baltimore_redfin_neighborhoods.csv` | `external_data/baltimore_neighborhood_prices.csv`, `tableau_data/week07_baltimore_comparison.csv`, `visualizations/week07_baltimore_comparison.png` |
+| `20_baltimore_comparison.R` | **Baltimore peer-city comparison**: five neighborhoods against the Baltimore benchmark, 2012–2025 | `external_data/raw/baltimore_redfin_neighborhoods.csv` | `external_data/baltimore_neighborhood_prices.csv`, `tableau_data/week07_baltimore_comparison.csv`, `visualizations/week07_baltimore_comparison.png` |
 | `run_all.R` | Runs stages 01–19 in order. Stage 20 is not included — it reads another city and runs on its own | all of the above | all of the above |
-| `baltimore/README.md` | Definition, inputs, benchmark and claim boundaries for stage 20 | — | — |
 | `docs/TABLEAU_BUILD_STEPS.md` | How the five dashboard files become the Tableau workbook: relationships, calculated fields, worksheets, dashboards, actions, QA | `tableau_data/tableau_ingestion/` | the `.twbx` workbook |
 
 ## Inputs
@@ -134,13 +133,12 @@ options(bsan.skip_stages = c("01_setup_packages.R", "02_build_economic_context.R
 source("code/run_all.R")
 ```
 
-The Baltimore comparison is **stage 20** and sits outside `run_all.R`: it reads
-a different city, its input is not part of the Philadelphia pipeline, and its
-result never enters `dim_geography`. Run it on its own once the input file is
-in place:
+The Baltimore comparison is **stage 20** and sits outside `run_all.R`. Run it
+on its own once its input is in place — what it computes, and the limits on
+quoting it, are set out [below](#stage-20-the-baltimore-peer-city-comparison):
 
 ```r
-source("code/baltimore/20_baltimore_comparison.R")
+source("code/20_baltimore_comparison.R")
 ```
 
 **Expected runtime.** About 25–40 minutes for a first full run, most of it in
@@ -181,6 +179,95 @@ code; it is built from `tableau_data/tableau_ingestion/` following
 `docs/TABLEAU_BUILD_STEPS.md`, which ships with this package so the workbook
 can be rebuilt even though the binary `.twbx` is not submitted.
 
+## Stage 20: the Baltimore peer-city comparison
+
+One stage sits outside `run_all.R`. It reads a different city, its input is not
+part of the Philadelphia pipeline, and nothing it produces enters
+`dim_geography` or any `tableau_ingestion/` file.
+
+It exists to answer a different question from the rest of the package. The
+Philadelphia screen identifies where pressure is *building*; Baltimore shows
+what a comparable city looks like once that pressure has *run*. Five
+neighborhoods are compared with a Baltimore benchmark: Remington, Union Square,
+Washington Village-Pigtown, Highlandtown and Patterson Park.
+
+| Item | Value |
+|---|---|
+| Source | Redfin neighborhood market tracker, Baltimore MD metro area |
+| Measure | Mean of the year's monthly `MEDIAN SALE PRICE NSA ($)` |
+| Window | Calendar 2012 against calendar 2025, both complete years in the delivered file |
+| Benchmark | Mean of every neighborhood median in the metro file — see below |
+| Outputs | `external_data/baltimore_neighborhood_prices.csv`, `tableau_data/week07_baltimore_comparison.csv`, `visualizations/week07_baltimore_comparison.png` |
+
+Delivered result:
+
+| Neighborhood | 2012 | 2025 | Change |
+|---|---:|---:|---:|
+| Remington | $74,936 | $277,033 | +269.7% |
+| Union Square | $65,900 | $213,571 | +224.1% |
+| Washington Village-Pigtown | $63,952 | $206,329 | +222.6% |
+| Highlandtown | $117,646 | $316,000 | +168.6% |
+| Patterson Park | $121,654 | $299,560 | +146.2% |
+| **Benchmark** | **$159,820** | **$284,961** | **+78.3%** |
+
+### What the benchmark is, and what it is not
+
+The benchmark is the mean of **every neighborhood median in the metro file** —
+305 neighborhoods, spanning Baltimore City, Baltimore County and Harford County.
+It is not a citywide median: its 2012 level is $159,820 against roughly $92,000
+for Baltimore City itself.
+
+**Call it "the average Baltimore-area neighborhood". Do not call it "the city
+average".**
+
+Three limits follow and should travel with any ratio taken from this stage:
+
+- **Geography.** Metro-wide, so it includes suburbs that are not comparable to
+  the five city neighborhoods.
+- **Composition.** 195 regions have 2012 data, 238 have 2025 data, 180 have both.
+  The two years are not computed over the same basket.
+- **Thin cells.** A year's price is the mean of that year's monthly medians, not
+  an annual median. Union Square carries 4 months of 2012 data against 7 of 2025;
+  Remington carries 11 against 12.
+
+The ratio of the five-neighborhood mean (+206%) to the benchmark (+78.3%) is
+**2.6x**, and 2.5x if Union Square is dropped. It is not 2.5x against a citywide
+median, which would put it nearer 1.6x-1.8x. If a single multiplier is quoted,
+the benchmark it is measured against has to be named in the same sentence.
+
+### What this stage does not cover
+
+- **No commercial-investment series.** Rising commercial investment is asserted
+  in the presentation notes; no permit or commercial valuation data was
+  delivered for Baltimore.
+- **No Baltimore housing-stock inventory.** Nothing here counts assisted or
+  income-restricted units, so it cannot say whether the five neighborhoods
+  gained or lost affordable stock. Appendix B.4 of the Data Usage Report sets
+  out the same limit for Philadelphia.
+- **No boundary file.** The neighborhoods are Redfin's definitions, not the City
+  of Baltimore's official boundaries.
+
+### Running it
+
+```r
+# from the project root, with external_data/raw/baltimore_redfin_neighborhoods.csv in place
+source("code/20_baltimore_comparison.R")
+```
+
+The script stops with the expected path if the input is missing, and it does not
+download anything. It is safe to run before or after `run_all.R`; there is no
+dependency in either direction.
+
+### Before quoting it
+
+- [ ] The benchmark is described as Baltimore-area, not city
+- [ ] The window (2012, 2025) travels with the percentages
+- [ ] Union Square's months of data are known if its figure is singled out
+- [ ] No Baltimore key enters `dim_geography` or any `tableau_ingestion/` file
+- [ ] No comparison is made between a Baltimore price and a Philadelphia price
+
+---
+
 ## What this package reproduces, and what it does not
 
 Running every stage in order reproduces the analysis. It does not reproduce
@@ -196,7 +283,7 @@ worth stating plainly rather than discovering it at a screen share.
 | Chart: the ZIP geometry map | **No** | built outside R; there is no geometry code in this package |
 | Six-measure chart, forecast panel, dashboard schematic, policy tables | **No** | assembled in Tableau from the tables above |
 | The Tableau workbook itself | **No** | built by hand from the five ingestion files, following `docs/TABLEAU_BUILD_STEPS.md` |
-| The Baltimore peer-city comparison | **Separately** — stage 20, not in `run_all.R` | `code/baltimore/20_baltimore_comparison.R` → `tableau_data/week07_baltimore_comparison.csv` and the chart |
+| The Baltimore peer-city comparison | **Separately** — stage 20, not in `run_all.R` | `code/20_baltimore_comparison.R` → `tableau_data/week07_baltimore_comparison.csv` and the chart |
 | The presentation deck | **No** | consumes the tables and two charts; layout is manual |
 
 The distinction that matters: everything marked **No** is a *rendering* of
