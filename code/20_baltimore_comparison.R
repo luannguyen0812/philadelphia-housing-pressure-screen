@@ -59,7 +59,7 @@ if (!exists("code_dir")) {
   if (is.na(config_path)) {
     stop(
       "Could not find 00_config.R. Run this script from the project root ",
-      "(source(\"code/baltimore/20_baltimore_comparison.R\")) or from the code folder.",
+      "(source(\"code/20_baltimore_comparison.R\")) or from the code folder.",
       call. = FALSE
     )
   }
